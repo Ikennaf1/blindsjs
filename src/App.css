@@ -1,0 +1,27 @@
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.body-margin {
+  @apply  lg:mx-64 md:mx-32 sm:mx-16 mx-12;
+}
+
+.nav {
+  color: hsl(228, 20%, 85%);
+  background-color: hsl(228, 20%, 10%);
+}
+
+.footer {
+  background-color: hsl(228, 20%, 97%);
+}
