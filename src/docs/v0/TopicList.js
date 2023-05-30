@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const TopicList = () => {
 
-    const [allTopics, setAllTopics] = useState(Object.entries(topics));
+    const [allTopics] = useState(Object.entries(topics));
 
     return (
         <div className="topic-list-main">

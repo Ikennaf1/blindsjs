@@ -1,19 +1,16 @@
-import Main from '../../Main';
-import Article from '../../Article';
+import Topic from '../../Topic';
 
-const QuickStart = () => {
+const QuickStart = ({ title }) => {
     return (
-        <Main>
-            <Article>
-                Aute nostrud veniam ea minim Lorem ea culpa et velit aute. Duis commodo do in nulla ullamco labore ut eiusmod exercitation reprehenderit in. Magna aliqua consectetur ipsum sint minim consectetur dolore eu anim cupidatat proident voluptate. Tempor reprehenderit sit cupidatat do consectetur magna excepteur consectetur voluptate magna laboris nostrud. Voluptate dolor sit culpa culpa dolore qui consectetur nisi proident. Consectetur mollit amet labore est ex ex qui esse officia veniam consequat magna qui. Amet enim nulla pariatur incididunt eu fugiat tempor laboris aliqua est velit exercitation.
+        <Topic title="Quick start">
+            Ad culpa sunt ullamco est ex labore dolore excepteur elit. Dolore ex Lorem exercitation minim deserunt occaecat incididunt. Aute elit magna sit amet nisi enim. Nostrud incididunt est est irure ex esse. Excepteur nulla nostrud elit reprehenderit aliquip duis elit. Laborum mollit ullamco veniam elit laborum commodo. Lorem consectetur minim quis ut sit in labore.
 
-In cillum labore proident sunt pariatur exercitation non sunt est veniam. Cupidatat sint anim excepteur deserunt minim cupidatat excepteur aute anim. Aliquip reprehenderit in voluptate labore. Commodo irure excepteur laboris et pariatur cillum laboris laboris.
+Deserunt anim nostrud tempor consectetur voluptate occaecat et pariatur laborum velit do aute aliqua. Nulla adipisicing esse cupidatat minim velit est est aute qui ut quis nulla est. Aliquip anim excepteur cupidatat incididunt. Et laboris ea laboris nostrud esse velit nisi cupidatat qui do veniam.
 
-Cupidatat consequat enim enim ipsum sint nostrud dolore nulla ad incididunt. Id anim laboris tempor minim. Ea dolore incididunt deserunt dolor tempor quis deserunt adipisicing non laboris ex. Mollit velit labore reprehenderit commodo ipsum incididunt officia aute esse. Ad velit excepteur dolor duis ut ullamco ut exercitation labore ut dolore quis. Ullamco duis sunt id amet sint.
+Sit sunt minim irure aliquip exercitation irure culpa pariatur dolore. Cupidatat ullamco nostrud anim reprehenderit fugiat elit sunt non sint ex ullamco velit. Nisi eu nostrud aliqua quis irure ea. Eu velit id elit proident voluptate nulla consectetur occaecat elit esse excepteur et culpa nisi. Lorem id nisi exercitation exercitation culpa dolore amet ipsum incididunt pariatur ipsum fugiat ea Lorem. Minim do id anim irure ea anim deserunt eu anim consequat quis qui exercitation minim.
 
-Dolor magna cupidatat occaecat id commodo ut. Proident id sunt mollit nulla nulla ut ut amet cillum et. Mollit sint sit non dolor reprehenderit. Sunt amet anim tempor nostrud Lorem reprehenderit reprehenderit ullamco nostrud ex proident esse.
-            </Article>
-        </Main>
+Ipsum minim minim nisi velit in proident anim ea reprehenderit dolor nulla. Do eu minim elit cillum do laboris officia duis nulla et proident laborum ut. Reprehenderit enim eiusmod adipisicing ut in elit labore. Elit laboris eu cupidatat irure sunt dolore fugiat esse consectetur occaecat id eu dolor.
+        </Topic>
     );
 }
 
