@@ -16,3 +16,65 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.body-margin {
+  @apply  xl:mx-64 lg:mx-32 md:mx-20 sm:mx-10 mx-5;
+}
+
+.link {
+  color: #2ec4b6;
+}
+
+.nav {
+  color: hsl(228, 20%, 85%);
+  background-color: hsl(228, 20%, 10%);
+}
+
+.main {
+  @apply pt-32;
+}
+
+.article-left-margin {
+  flex: 1;
+}
+
+.topic-list-main {
+  @apply fixed border-r bg-transparent hidden md:block md:w-28 lg:w-36 pr-3;
+  height: 60vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.topic-list-items-main {
+  @apply text-sm my-5 ease-linear duration-75;
+}
+
+.topic-list-main li{
+  @apply mt-3;
+}
+
+.topic-list-items-main:hover {
+  /* color: #2ec4b6; */
+  @apply link;
+}
+
+#topic_list_main a.active {
+  @apply font-bold pl-3;
+  border-left: 5px solid #2ec4b6;
+}
+
+.article {
+  flex: 3;
+}
+
+.article-right-margin {
+  flex: 1;
+}
+
+.aside {
+  @apply fixed border-l bg-transparent hidden sm:block md:w-28 lg:w-36 xl:w-48 pl-3 sm:right-28 md:right-36 lg:right-48 xl:right-64;
+}
+
+.footer {
+  background-color: hsl(228, 20%, 96%);
+}
