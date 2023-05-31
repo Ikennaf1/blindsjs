@@ -60,11 +60,15 @@ code {
 
 #topic_list_main a.active {
   @apply font-bold pl-3;
-  border-left: 5px solid #2ec4b6;
+  border-left: 4px solid #2ec4b6;
 }
 
 .article {
   flex: 3;
+}
+
+.article h3 {
+  @apply mt-5 mb-3 text-xl font-bold;
 }
 
 .article-right-margin {
@@ -77,4 +81,12 @@ code {
 
 .footer {
   background-color: hsl(228, 20%, 96%);
+}
+
+/* iframe[title="blindscdn"] .blob-code-content {
+  background-color: #2ec4b6 !important;
+} */
+
+iframe * #file-blindscdn0-6-1-js-LC1 {
+  background-color: #2ec4b6 !important;
 }

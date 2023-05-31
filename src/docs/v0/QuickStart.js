@@ -1,8 +1,8 @@
 import Topic from '../../Topic';
 
-const QuickStart = ({ title }) => {
+const QuickStart = () => {
     return (
-        <Topic title="Quick start">
+        <Topic title="Quick start" description="A quick start guide for implementing dark mode using the blinds package." prev="/docs/v0/installation" next="/docs/v0/add-custom-styling">
             Ad culpa sunt ullamco est ex labore dolore excepteur elit. Dolore ex Lorem exercitation minim deserunt occaecat incididunt. Aute elit magna sit amet nisi enim. Nostrud incididunt est est irure ex esse. Excepteur nulla nostrud elit reprehenderit aliquip duis elit. Laborum mollit ullamco veniam elit laborum commodo. Lorem consectetur minim quis ut sit in labore.
 
 Deserunt anim nostrud tempor consectetur voluptate occaecat et pariatur laborum velit do aute aliqua. Nulla adipisicing esse cupidatat minim velit est est aute qui ut quis nulla est. Aliquip anim excepteur cupidatat incididunt. Et laboris ea laboris nostrud esse velit nisi cupidatat qui do veniam.
