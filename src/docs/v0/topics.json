@@ -1,7 +1,7 @@
 {
     "Installation": "v0/installation",
     "Quick start": "v0/quick-start",
-    "Add custom styling": "v0/custom-styling",
-    "Use custom icons": "v0/custom-icons",
-    "Use custom id attribute for icons tag": "v0/topic-4"
+    "Adding custom styling": "v0/custom-styling",
+    "Using custom icons": "v0/custom-icons",
+    "Using custom id attribute for icons tag": "v0/topic-4"
 }

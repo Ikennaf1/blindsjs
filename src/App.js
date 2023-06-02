@@ -6,6 +6,7 @@ import Home from './Home';
 
 import V0QuickStart from './docs/v0/QuickStart';
 import V0Installation from './docs/v0/Installation';
+import V0CustomStyling from './docs/v0/CustomStyling';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/docs/v0/quick-start" element={<V0QuickStart />} />
             <Route path="/docs/v0/installation" element={<V0Installation />} />
+            <Route path="/docs/v0/custom-styling" element={<V0CustomStyling />} />
           </Routes>
 
         <Footer />

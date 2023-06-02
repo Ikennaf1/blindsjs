@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -42,7 +46,7 @@ code {
   @apply fixed border-r bg-transparent hidden md:block md:w-28 lg:w-36 pr-3;
   height: 60vh;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .topic-list-items-main {
@@ -54,7 +58,6 @@ code {
 }
 
 .topic-list-items-main:hover {
-  /* color: #2ec4b6; */
   @apply link;
 }
 
