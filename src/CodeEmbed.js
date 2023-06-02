@@ -1,8 +1,8 @@
-const CodeEmbed = ({ title, width, maxHeight, script }) => {
+const CodeEmbed = ({ title, width, height, script }) => {
     return (
         <iframe title={`${title}`}
             width={`${width}`}
-            max-height={`${maxHeight}`}   
+            height={`${height}`}   
             src={`data:text/html;charset=utf-8,
                 <head><base target='_blank' /></head>
                 <body><script src='${script}'></script>

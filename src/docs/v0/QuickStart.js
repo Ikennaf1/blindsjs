@@ -15,13 +15,13 @@ const QuickStart = () => {
                 So you have installed blinds in your project, now is time to actually make use of it.<br />
                 In your javascript code, import blinds. If you're using blinds as a script from CDN, you should skip this step.
             </p><br />
-            <CodeEmbed title="blindsInitImport0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/2ebd3e095b5a53dcf4b2b19b216afdf2.js" />
+            <CodeEmbed title="blindsInitImport0" width="100%" height="100" script="https://gist.github.com/Ikennaf1/2ebd3e095b5a53dcf4b2b19b216afdf2.js" />
 
             <p>
                 Please note that if you're using CDN, blinds must be loaded in the browser before your own javascript for it to work.
                 Therefore, it is important that your javascript comes after blinds.
             </p><br />
-            <CodeEmbed title="blindsInit0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/1f50dfad3d07747fd0f989a06f96ebc2.js" />            
+            <CodeEmbed title="blindsInit0" width="100%" height="100" script="https://gist.github.com/Ikennaf1/1f50dfad3d07747fd0f989a06f96ebc2.js" />            
 
             <p>
                 It is now time to show the toggle icons.<br />
@@ -30,19 +30,19 @@ const QuickStart = () => {
             <p>
                 The style given below is just an example. You are at liberty to style your icons as you like.
             </p><br />
-            <CodeEmbed title="blindsIcon0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/bcef8e8c625c4c1d610be92cb3d0da89.js" />
+            <CodeEmbed title="blindsIcon0" width="100%" height="120" script="https://gist.github.com/Ikennaf1/bcef8e8c625c4c1d610be92cb3d0da89.js" />
 
             <p>
                 The icons are showing, but they don't do anything for now.
                 You need to activate the icons, but before that, you need to import the function that does just that.
                 If you are using blinds via CDN, you should skip this step.<br />
             </p><br />
-            <CodeEmbed title="blindsActivateToggleImport0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/24c8d03584dad603e02ce8aff97caffa.js" />
+            <CodeEmbed title="blindsActivateToggleImport0" width="100%" height="100" script="https://gist.github.com/Ikennaf1/24c8d03584dad603e02ce8aff97caffa.js" />
 
             <p>
                 Activate the icons.
             </p><br />
-            <CodeEmbed title="blindsActivateToggleIcons0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/28823de5f2b51eb7e79196acdafb51d1.js" />
+            <CodeEmbed title="blindsActivateToggleIcons0" width="100%" height="200" script="https://gist.github.com/Ikennaf1/28823de5f2b51eb7e79196acdafb51d1.js" />
 
             <p>
                 Now when you click the icons, your website toggles from dark mode to normal mode. Just like that!<br />

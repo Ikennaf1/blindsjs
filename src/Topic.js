@@ -70,13 +70,13 @@ const Topic = ({ children, title, description, prev, next }) => {
                 { children }
                 <div className="flex justify-between w-full">
                     {prev && <Link to={prev} className="mr-auto mt-5">
-                        <div className="text-3xl border rounded p-3 font-light text-gray-500 bg-gray-100 hover:bg-gray-200">
-                        &lt;
+                        <div className="text-sm border rounded px-2 py-1 hover:text-blue-500 font-light text-gray-600 bg-gray-100 hover:bg-gray-200">
+                        &lt; prev
                     </div>
                     </Link>}
                     {next && <Link to={next} className="ml-auto mt-5">
-                        <div className="text-3xl border rounded p-3 font-light text-gray-500 bg-gray-100 hover:bg-gray-200">
-                        &gt;
+                        <div className="text-sm border rounded px-2 py-1 hover:text-blue-500 font-light text-gray-600 bg-gray-100 hover:bg-gray-200">
+                        next &gt;
                         </div>
                     </Link>}
                 </div>
