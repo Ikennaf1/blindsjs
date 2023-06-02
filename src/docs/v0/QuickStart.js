@@ -1,15 +1,53 @@
 import Topic from '../../Topic';
+import { Link } from 'react-router-dom';
+import CodeEmbed from '../../CodeEmbed';
 
 const QuickStart = () => {
     return (
-        <Topic title="Quick start" description="A quick start guide for implementing dark mode using the blinds package." prev="/docs/v0/installation" next="/docs/v0/add-custom-styling">
-            Ad culpa sunt ullamco est ex labore dolore excepteur elit. Dolore ex Lorem exercitation minim deserunt occaecat incididunt. Aute elit magna sit amet nisi enim. Nostrud incididunt est est irure ex esse. Excepteur nulla nostrud elit reprehenderit aliquip duis elit. Laborum mollit ullamco veniam elit laborum commodo. Lorem consectetur minim quis ut sit in labore.
+        <Topic title="Quick start" description="A quick start guide for implementing dark mode using the blinds package." prev="/docs/v0/installation" next="/docs/v0/custom-styling">
+            <p>
+                This guide is a continuation of the previous.<br/>
+                If you have not installed blinds, and do not know how, now might be a good time to <Link to="/docs/v0/installation" className="link">visit the previous guide</Link>, and follow the instructions.
+            </p>
 
-Deserunt anim nostrud tempor consectetur voluptate occaecat et pariatur laborum velit do aute aliqua. Nulla adipisicing esse cupidatat minim velit est est aute qui ut quis nulla est. Aliquip anim excepteur cupidatat incididunt. Et laboris ea laboris nostrud esse velit nisi cupidatat qui do veniam.
+            <h3>Using Blinds</h3>
+            <p>
+                So you have installed blinds in your project, now is time to actually make use of it.<br />
+                In your javascript code, import blinds. If you're using blinds as a script from CDN, you should skip this step.
+            </p><br />
+            <CodeEmbed title="blindsInitImport0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/2ebd3e095b5a53dcf4b2b19b216afdf2.js" />
 
-Sit sunt minim irure aliquip exercitation irure culpa pariatur dolore. Cupidatat ullamco nostrud anim reprehenderit fugiat elit sunt non sint ex ullamco velit. Nisi eu nostrud aliqua quis irure ea. Eu velit id elit proident voluptate nulla consectetur occaecat elit esse excepteur et culpa nisi. Lorem id nisi exercitation exercitation culpa dolore amet ipsum incididunt pariatur ipsum fugiat ea Lorem. Minim do id anim irure ea anim deserunt eu anim consequat quis qui exercitation minim.
+            <p>
+                Please note that if you're using CDN, blinds must be loaded in the browser before your own javascript for it to work.
+                Therefore, it is important that your javascript comes after blinds.
+            </p><br />
+            <CodeEmbed title="blindsInit0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/1f50dfad3d07747fd0f989a06f96ebc2.js" />            
 
-Ipsum minim minim nisi velit in proident anim ea reprehenderit dolor nulla. Do eu minim elit cillum do laboris officia duis nulla et proident laborum ut. Reprehenderit enim eiusmod adipisicing ut in elit labore. Elit laboris eu cupidatat irure sunt dolore fugiat esse consectetur occaecat id eu dolor.
+            <p>
+                It is now time to show the toggle icons.<br />
+                To do that, in your HTML, you must provide the tag where the icons will be displayed, and add to it the id attribute with value: "blinds_id".
+            </p>
+            <p>
+                The style given below is just an example. You are at liberty to style your icons as you like.
+            </p><br />
+            <CodeEmbed title="blindsIcon0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/bcef8e8c625c4c1d610be92cb3d0da89.js" />
+
+            <p>
+                The icons are showing, but they don't do anything for now.
+                You need to activate the icons, but before that, you need to import the function that does just that.
+                If you are using blinds via CDN, you should skip this step.<br />
+            </p><br />
+            <CodeEmbed title="blindsActivateToggleImport0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/24c8d03584dad603e02ce8aff97caffa.js" />
+
+            <p>
+                Activate the icons.
+            </p><br />
+            <CodeEmbed title="blindsActivateToggleIcons0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/28823de5f2b51eb7e79196acdafb51d1.js" />
+
+            <p>
+                Now when you click the icons, your website toggles from dark mode to normal mode. Just like that!<br />
+                In the next guide <Link to="/docs/v0/custom-styling" className="link">add custom styling</Link>, we will go through the steps needed for you to enforce your own dark mode style instead of using the default style that comes with blinds.
+            </p>
         </Topic>
     );
 }

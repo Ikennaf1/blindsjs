@@ -5,7 +5,7 @@ const Installation = () => {
     return (
         <Topic title="Installation" description="Installing the blinds package for dark mode." next="/docs/v0/quick-start">
             <p>
-                Blinds is a package used to easily add dark mode to a website. But before using blinds, it has to be set up in your project. This section contains the guide for setting up blinds for use in your website.
+                Blinds is a package used to easily add dark mode to a website. But before using blinds, it has to be set up in your project. This guide contains instructions for setting up blinds for use in your website.
             </p>
 
             <h3>Getting blinds</h3>
@@ -36,7 +36,7 @@ const Installation = () => {
                 To get blinds via NPM, open your terminal and make sure you're in your project's root directory.<br />
                 Run the following command in your root directory to get blinds install to your project:
             </p><br />
-            <CodeEmbed title="blindsnpm0" width="100%" max-eight="350" script="https://gist.github.com/Ikennaf1/4469c937c96694c98f86a3ed02c5d191.js" />
+            <CodeEmbed title="blindsnpm0" width="100%" max-height="350" script="https://gist.github.com/Ikennaf1/4469c937c96694c98f86a3ed02c5d191.js" />
         </Topic>
     );
 }
