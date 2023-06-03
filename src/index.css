@@ -79,7 +79,7 @@ code {
 }
 
 .aside {
-  @apply fixed border-l bg-transparent hidden sm:block md:w-28 lg:w-36 xl:w-36 pl-3 sm:right-28 md:right-20 lg:right-32 xl:right-64;
+  @apply fixed border-l bg-transparent hidden pl-3 sm:block sm:w-20 sm:right-20 md:w-28 md:right-20 lg:w-36 lg:right-32 xl:w-36 xl:right-64;
 }
 
 .footer {
