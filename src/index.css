@@ -50,7 +50,7 @@ code {
 }
 
 .topic-list-items-main {
-  @apply text-sm my-5 ease-linear duration-75;
+  @apply text-sm mt-1 ease-linear duration-75 inline-block;
 }
 
 .topic-list-main li{
@@ -62,8 +62,8 @@ code {
 }
 
 #topic_list_main a.active {
-  @apply font-bold pl-3;
-  border-left: 4px solid #2ec4b6;
+  @apply font-bold pl-2;
+  border-left: 3px solid #2ec4b6;
 }
 
 .article {
@@ -84,12 +84,4 @@ code {
 
 .footer {
   background-color: hsl(228, 20%, 96%);
-}
-
-/* iframe[title="blindscdn"] .blob-code-content {
-  background-color: #2ec4b6 !important;
-} */
-
-iframe * #file-blindscdn0-6-1-js-LC1 {
-  background-color: #2ec4b6 !important;
 }
