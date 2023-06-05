@@ -16,12 +16,11 @@ const TopicListCollapsible = () => {
                 <ul id="topic_list_collapsible">
                 {
                     allTopics.map((topic, i) =>                     
-                        <NavLink to={`/docs/${topic[1]}`} className="topic-list-items-collapsible"><li key={i+100}>{topic[0]}</li></NavLink>                    
+                        <NavLink to={`/docs/${topic[1]}`} className="topic-list-items-collapsible" key={i+100}><li>{topic[0]}</li></NavLink>                    
                     )
                 }
                 </ul>
             </div>
-
         </TopicCollapsible>
     );
 }
