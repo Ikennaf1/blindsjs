@@ -1,7 +1,21 @@
+import { useState } from "react";
+
 const TopicCollapsible = ({ children }) => {
+
+    const [ collapsed, setCollapsed ] = useState(true);
+
+    const handleCollapse = () => {
+        if (collapsed === true) {
+            setCollapsed(false);
+        } else {
+            setCollapsed(true);
+        }
+    }
+
     return (
-        <div className="fixed w-full md:hidden">
-            <div className="fixed w-screen h-screen bg-black opacity-10 z-10"></div>
+        <div className={`fixed w-full md:hidden overscroll-none ${collapsed ? 'nav-collapsed' : 'nav-show'}`}>
+            <button id="collapsedNav" className="hidden" onClick={() => handleCollapse()}>Collapse nav</button>
+            <div className={`fixed w-screen h-screen bg-black opacity-10 z-10 ${collapsed ? 'opacity-0' : 'transition duration-300 ease-in-out delay-500'}`}></div>
             <div className="nav fixed w-3/4 h-screen z-20 text-light p-3">
 
                 <div className="flex justify-between items-center">
@@ -28,15 +42,15 @@ const TopicCollapsible = ({ children }) => {
                             <h1 className="font-bold text-xl">Blinds</h1>
                         </div>
                     </a>
-                    <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
+                    <div onClick={() => handleCollapse()}>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
                     </div>
                 </div>
                 { children }
             </div>
-        </div>
+    </div>
     );
 }
 

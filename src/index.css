@@ -34,8 +34,20 @@ code {
   background-color: hsl(228, 20%, 10%);
 }
 
+.nav-collapsed {
+  opacity: 0;
+  transform: translateX(-150%);
+  @apply transition duration-500 ease-in-out;
+}
+
+.nav-show {
+  opacity: 1;
+  transform: translateX(0%);
+  @apply transition duration-500 ease-in-out;
+}
+
 .main {
-  @apply pt-32;
+  @apply pt-20;
 }
 
 .article-left-margin {

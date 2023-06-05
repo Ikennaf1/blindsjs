@@ -4,11 +4,11 @@ const Nav = () => {
     return (
         <nav className="nav fixed top-0 w-full">
             <div className="h-16 flex items-center justify-between body-margin">
-                <div className="pr-3 fixed md:hidden">
+                <label htmlFor="collapsedNav" className="mr-3 p-1 fixed md:hidden rounded-full hover:bg-gray-800 cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
                     </svg>
-                </div>
+                </label>
                 <a href="/">
                     <div className="flex items-center justify-left ml-10 md:ml-0">
                         <div className="link" style={{"width": "3rem", "height": "3rem", "display": "inline-block", "color": "coral", "marginTop": 25}}>
