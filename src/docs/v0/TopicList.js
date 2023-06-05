@@ -9,7 +9,7 @@ const TopicList = () => {
 
     return (
         <div className="topic-list-main">
-            <VersionList />
+            <VersionList defaultVersion="v0" />
             <ul id="topic_list_main">
             {
                 allTopics.map((topic, i) => 

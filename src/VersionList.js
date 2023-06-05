@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const VersionList = () => {
+const VersionList = ({ defaultVersion }) => {
 
     const [url, setUrl] = useState(window.location.href);
 
@@ -10,7 +10,7 @@ const VersionList = () => {
     }
 
     return (
-        <select className="w-full rounded p-2 bg-transparent border" defaultValue={"v0"} onChange={(e) => handleVersionSelect(e)}>
+        <select className="w-full rounded p-2 bg-transparent border" defaultValue={ defaultVersion } onChange={(e) => handleVersionSelect(e)}>
             <option value="v0">v0</option>
         </select>
     );

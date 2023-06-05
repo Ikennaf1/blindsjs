@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 import './App.css';
 import Nav from './Nav';
 import Footer from './Footer';
@@ -8,7 +9,6 @@ import V0QuickStart from './docs/v0/QuickStart';
 import V0Installation from './docs/v0/Installation';
 import V0CustomStyling from './docs/v0/CustomStyling';
 import V0CustomIcons from './docs/v0/CustomIcons';
-import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (

@@ -4,33 +4,38 @@ const Nav = () => {
     return (
         <nav className="nav fixed top-0 w-full">
             <div className="h-16 flex items-center justify-between body-margin">
+                <div className="pr-3 fixed md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+                    </svg>
+                </div>
                 <a href="/">
-                    <div className="flex items-center justify-left">
-                            <div className="link" style={{"width": "3rem", "height": "3rem", "display": "inline-block", "color": "coral", "marginTop": 25}}>
-                                <svg stroke="#2ec4b6" viewBox="0 0 900 900">
-                                    <g id="Layer_1">	
-                                            <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="24.255" x2="520.825" y2="8.819"/>	
-                                            <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="110.161" x2="508.074" y2="91.369"/>	
-                                            <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="190.027" x2="512.101" y2="159.154"/>	
-                                            <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-19.443" y1="273.919" x2="515.456" y2="263.182"/>	
-                                            <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="344.39" x2="498.678" y2="341.705"/>	
-                                            <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="463.182" x2="512.101" y2="473.248"/>	
-                                            <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-19.443" y1="410.832" x2="508.074" y2="400.094"/>	
-                                            <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="70.792" y1="-11.431" x2="67.914" y2="497.202"/>	
-                                            <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="341.562" y1="-11.431" x2="344.439" y2="492.166"/>	
-                                            <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="377.021" y1="-14.309" x2="379.18" y2="502.957"/>	
-                                            <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="459.288" y1="-14.309" x2="458.568" y2="497.202"/>	
-                                            <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="19.504" y1="-11.431" x2="15.188" y2="492.166"/>
-                                    </g>
-                                </svg>
-                            </div>
-                            <h1 className="font-bold text-xl">Blinds</h1>
+                    <div className="flex items-center justify-left ml-10 md:ml-0">
+                        <div className="link" style={{"width": "3rem", "height": "3rem", "display": "inline-block", "color": "coral", "marginTop": 25}}>
+                            <svg stroke="#2ec4b6" viewBox="0 0 900 900">
+                                <g id="Layer_1">	
+                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="24.255" x2="520.825" y2="8.819"/>	
+                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="110.161" x2="508.074" y2="91.369"/>	
+                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="190.027" x2="512.101" y2="159.154"/>	
+                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-19.443" y1="273.919" x2="515.456" y2="263.182"/>	
+                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="344.39" x2="498.678" y2="341.705"/>	
+                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="463.182" x2="512.101" y2="473.248"/>	
+                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-19.443" y1="410.832" x2="508.074" y2="400.094"/>	
+                                        <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="70.792" y1="-11.431" x2="67.914" y2="497.202"/>	
+                                        <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="341.562" y1="-11.431" x2="344.439" y2="492.166"/>	
+                                        <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="377.021" y1="-14.309" x2="379.18" y2="502.957"/>	
+                                        <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="459.288" y1="-14.309" x2="458.568" y2="497.202"/>	
+                                        <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="19.504" y1="-11.431" x2="15.188" y2="492.166"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1 className="font-bold text-xl">Blinds</h1>
                     </div>
                 </a>
                 <div className="text-sm">
                     <ul className="flex items-center">
-                        <Link to="/docs/v0/installation"><li className="uppercase hidden sm:block">Documentation</li></Link>
-                        <Link to="/docs/v0/installation"><li className="uppercase sm:hidden">Docs</li></Link>
+                        <Link to="/docs/"><li className="uppercase hidden sm:block">Documentation</li></Link>
+                        <Link to="/docs/"><li className="uppercase sm:hidden">Docs</li></Link>
                         <li className=" ml-5">
                             <a className="link" href="https://github.com/Ikennaf1/blinds" target="_blank" rel="noreferrer"> <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor" width="16"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.8 9.5c.5 0 .7-.2.7-.5v-1.7C6.7 20 6.1 18 6.1 18c-.4-1.2-1-1.5-1-1.5-1-.6 0-.6 0-.6 1 0 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9 0-.7.3-1.1.6-1.4-2.2-.2-4.6-1-4.6-4.9 0-1.1.4-2 1-2.7 0-.3-.4-1.3.2-2.7 0 0 .8-.2 2.7 1a9.4 9.4 0 0 1 5 0c2-1.2 2.8-1 2.8-1 .5 1.4.1 2.4 0 2.7.7.7 1 1.6 1 2.7 0 3.8-2.3 4.7-4.5 5 .4.2.7.8.7 1.8V21c0 .3.2.6.7.5 4-1.3 6.8-5 6.8-9.5A10 10 0 0 0 12 2z"></path></svg></a>
                         </li>
