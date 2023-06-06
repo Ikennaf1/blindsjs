@@ -21,21 +21,24 @@ const TopicCollapsible = ({ children }) => {
                 <div className="flex justify-between items-center">
                     <a href="/">
                         <div className="flex items-center justify-center">
-                            <div className="link" style={{"width": "3rem", "height": "3rem", "display": "inline-block", "color": "coral", "marginTop": 25}}>
-                                <svg stroke="#2ec4b6" viewBox="0 0 900 900">
-                                    <g id="Layer_1">	
-                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="24.255" x2="520.825" y2="8.819"/>	
-                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="110.161" x2="508.074" y2="91.369"/>	
-                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="190.027" x2="512.101" y2="159.154"/>	
-                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-19.443" y1="273.919" x2="515.456" y2="263.182"/>	
-                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="344.39" x2="498.678" y2="341.705"/>	
-                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-14.074" y1="463.182" x2="512.101" y2="473.248"/>	
-                                        <line fill="none" strokeWidth="25" strokeLinecap="round" strokeMiterlimit="10" x1="-19.443" y1="410.832" x2="508.074" y2="400.094"/>	
-                                        <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="70.792" y1="-11.431" x2="67.914" y2="497.202"/>	
-                                        <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="341.562" y1="-11.431" x2="344.439" y2="492.166"/>	
-                                        <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="377.021" y1="-14.309" x2="379.18" y2="502.957"/>	
-                                        <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="459.288" y1="-14.309" x2="458.568" y2="497.202"/>	
-                                        <line fill="none" strokeWidth="10" strokeLinecap="round" strokeMiterlimit="10" x1="19.504" y1="-11.431" x2="15.188" y2="492.166"/>
+                            <div className="link" style={{"width": "3rem", "height": "3rem", "display": "inline-block", "color": "coral", "marginTop": 25}}>                                
+                                <svg viewBox="0 0 900 900">
+                                    <g id="Layer_1">
+                                        <circle fill="#141519" cx="256" cy="256" r="256"/>
+                                    </g>
+                                    <g id="Layer_3">
+                                        <g>
+                                            <path fill="#ADB6D8" d="M381,101.857c0,0-26.428-42.143-87.143-50H246v50H381z"/>
+                                            <polygon fill="#2EC4B6" points="178.857,65.857 128.857,115.857 229,115.857 229,65.857 		"/>
+                                            <polygon fill="#2EC4B6" points="179,398.857 128.857,449 229,449 229,398.857 		"/>
+                                            <path fill="#ADB6D8" d="M301.714,435C372.428,427.429,406,384.857,406,384.857H246V435H301.714z"/>
+                                            <path fill="#ADB6D8" d="M393.143,187.214c0,0,9.285-24.643,3.571-46.786H246v46.786H393.143z"/>
+                                            <polygon fill="#2EC4B6" points="179.571,154.429 132.786,201.214 229,201.214 229,154.429 		"/>
+                                            <polygon fill="#2EC4B6" points="177.964,317.107 132.786,362.286 178.857,362.286 229,362.286 229,317.107 		"/>
+                                            <path fill="#ADB6D8" d="M428.857,348.286c5.715-10,8.571-45.179,8.571-45.179H246v45.179H428.857z"/>
+                                            <polygon fill="#2EC4B6" points="178.857,238.714 137.071,280.5 229,280.5 229,238.714 		"/>
+                                            <path fill="#ADB6D8" d="M432.429,266.5c0,0-9.286-28.214-26.429-41.786H246V266.5H432.429z"/>
+                                        </g>
                                     </g>
                                 </svg>
                             </div>
