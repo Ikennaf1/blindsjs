@@ -5,7 +5,10 @@ import SectionThree from "./SectionThree";
 
 const Content = () => {
     return (
-        <div className="absolute top-[100%] w-full">
+        <div className="absolute top-[756px] w-full">
+            <div>
+                {/* Carbon ad goes here */}
+            </div>
             <SectionOne />
             <SectionTwo />
             <SectionThree />

@@ -46,6 +46,18 @@ code {
   @apply transition duration-500 ease-in-out;
 }
 
+.jumbotron {
+  background-image: url('../public/jumbotron.jpg');
+}
+
+.cta h3 {
+  @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-black lg:font-bold drop-shadow-sm;
+}
+
+.cta p {
+  @apply text-base md:text-lg lg:text-xl xl:text-2xl text-gray-400 drop-shadow-sm;
+}
+
 .main {
   @apply pt-20;
 }
