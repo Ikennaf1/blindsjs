@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
-        <nav className="nav fixed top-0 w-full">
+        <nav className="nav fixed top-0 w-full z-10">
             <div className="h-16 flex items-center justify-between body-margin">
                 <label htmlFor="collapsedNav" className="mr-3 p-1 fixed md:hidden rounded-full hover:bg-gray-800 cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
@@ -11,20 +11,8 @@ const Nav = () => {
                 </label>
                 <a href="/">
                     <div className="flex items-center justify-left ml-10 md:ml-0">
-                        <div className="link" style={{"width": "3rem", "height": "3rem", "display": "inline-block", "color": "coral", "marginTop": 25}}>
-                            {/* <svg stroke="#2ec4b6" viewBox="0 0 900 900">
-                                <g id="Layer_1">	
-                                    <line fill="none" strokeWidth="45" strokeLineCap="round" strokeMiterlimit="10" x1="20.356" y1="33.89" x2="460.616" y2="21.184"/>	
-                                    <line fill="none" strokeWidth="45" strokeLineCap="round" strokeMiterlimit="10" x1="20.125" y1="175.512" x2="460.552" y2="149.669"/>	
-                                    <line fill="none" strokeWidth="45" strokeLineCap="round" strokeMiterlimit="10" x1="20.891" y1="294.229" x2="460.824" y2="320.871"/>	
-                                    <line fill="none" strokeWidth="45" strokeLineCap="round" strokeMiterlimit="10" x1="20.43" y1="450.999" x2="461.207" y2="459.432"/>	
-                                    <line fill="none" strokeWidth="15" strokeLineCap="round" strokeMiterlimit="10" x1="341.629" y1="0" x2="344.372" y2="480"/>	
-                                    <line fill="none" strokeWidth="15" strokeLineCap="round" strokeMiterlimit="10" x1="459.267" y1="0" x2="458.59" y2="480"/>	
-                                    <line fill="none" strokeWidth="15" strokeLineCap="round" strokeMiterlimit="10" x1="19.403" y1="0" x2="15.289" y2="480"/>	
-                                    <line fill="none" strokeWidth="15" strokeLineCap="round" strokeMiterlimit="10" x1="124.402" y1="3" x2="120.289" y2="483"/>
-                                </g>
-                            </svg> */}
-                            <svg viewBox="0 0 900 900">
+                        <div className="link" style={{"width": "3rem", "height": "3rem", "display": "inline-block", "color": "coral", "marginTop": 17}}>
+                            <svg viewBox="0 0 700 700">
                                 <g id="Layer_1">
                                     <circle fill="#141519" cx="256" cy="256" r="256"/>
                                 </g>

@@ -13,10 +13,10 @@ const TopicCollapsible = ({ children }) => {
     }
 
     return (
-        <div className={`fixed w-full md:hidden overscroll-none ${collapsed ? 'nav-collapsed' : 'nav-show'}`}>
+        <div className={`fixed w-full md:hidden overscroll-none z-50 ${collapsed ? 'nav-collapsed' : 'nav-show'}`}>
             <button id="collapsedNav" className="hidden" onClick={() => handleCollapse()}>Collapse nav</button>
-            <label htmlFor="collapsedNav" className={`fixed w-screen h-screen bg-black z-10 ${collapsed ? 'opacity-0' : 'opacity-10 transition duration-300 ease-in-out delay-500'}`}></label>
-            <div className="nav fixed w-3/4 h-screen z-20 text-light p-3">
+            <label htmlFor="collapsedNav" className={`fixed w-screen h-screen bg-black z-40 ${collapsed ? 'opacity-0' : 'opacity-10 transition duration-300 ease-in-out delay-500'}`}></label>
+            <div className="nav fixed w-3/4 h-screen z-50 text-light p-3">
 
                 <div className="flex justify-between items-center">
                     <a href="/">
