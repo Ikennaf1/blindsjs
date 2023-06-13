@@ -5,7 +5,7 @@ import SectionThree from "./SectionThree";
 
 const Content = () => {
     return (
-        <div className="absolute top-[756px] w-full">
+        <div className="absolute top-[640px] sm:top-[756px] w-full mt-8">
             <div>
                 {/* Carbon ad goes here */}
             </div>

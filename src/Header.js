@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
-        <header className="jumbotron absolute top-0 w-full h-[756px] w-full bg-cover bg-center bg-no-repeat bg-black">
+        <header className="jumbotron absolute top-0 w-full h-[640px] sm:h-[756px] w-full bg-cover bg-center bg-no-repeat">
             {/* <div className="absolute top-0 w-full h-full bg-black"></div> */}
             <div className="cta mt-24 body-margin h-[85%]">
                 <div className="w-24 h-24 sm:w-40 sm:h-40 m-auto">
@@ -23,7 +23,7 @@ const Header = () => {
                     </svg>
                 </div>
                 <div className="w-3/4 text-center m-auto">
-                    <h3 className="">The only dark mode package you need for your website</h3>
+                    <h2 className="">The only dark mode package you need for your website</h2>
                     <p className="mt-2">
                         Blinds provides the scaffold required to give your customers the dark mode user interface necessary for a truely modern website.
                     </p>
