@@ -126,6 +126,8 @@ code {
 .section-one-items {
   min-width: 0px;
   flex: 1;
+  text-align: center;
+  @apply bg-white p-8 shadow-md border-none rounded-md mt-8 sm:mt-0;
 }
 
 blockquote.twitter-tweet {
