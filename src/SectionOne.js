@@ -20,7 +20,7 @@ const SectionOne = () => {
                         </svg>
                     </Link>
                 </div>
-                <div className="block mt-16 w-full sm:flex sm:justify-between sm:gap-10">
+                <div className="block w-full sm:mt-8 sm:mt-16 sm:flex sm:justify-between sm:gap-10">
                     <div className="section-one-items">
                         <div className="flex items-center justify-center bg-[#aa00ff]/20 w-12 h-12 rounded-xl mx-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#aa00ff" className="w-6 h-6">

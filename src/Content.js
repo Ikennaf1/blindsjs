@@ -2,6 +2,7 @@ import SectionOne from "./SectionOne";
 import Footer from "./Footer";
 import SectionTwo from "./SectionTwo";
 import SectionThree from "./SectionThree";
+import SectionFour from "./SectionFour";
 
 const Content = () => {
     return (
@@ -12,6 +13,7 @@ const Content = () => {
             <SectionOne />
             <SectionTwo />
             <SectionThree />
+            <SectionFour />
             <Footer />
         </div>
     );

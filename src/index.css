@@ -130,6 +130,11 @@ code {
   @apply bg-white p-8 shadow-md border-none rounded-md mt-8 sm:mt-0;
 }
 
+.sectionTwoBgImg {
+  /* background-image: url('../public/tpkbd.jpg'); */
+  /* filter: blur(2px); */
+}
+
 blockquote.twitter-tweet {
   display: inline-block;
   font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
