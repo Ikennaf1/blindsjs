@@ -130,9 +130,8 @@ code {
   @apply bg-white p-8 shadow-md border-none rounded-md mt-8 sm:mt-0;
 }
 
-.sectionTwoBgImg {
-  /* background-image: url('../public/tpkbd.jpg'); */
-  /* filter: blur(2px); */
+.section-two-items {
+  @apply mt-8 sm:mt-0;
 }
 
 blockquote.twitter-tweet {
