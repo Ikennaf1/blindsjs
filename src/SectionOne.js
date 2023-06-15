@@ -11,7 +11,7 @@ const SectionOne = () => {
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
                         </svg>
                     </div>
-                    <h3 className="text-3xl mt-8">Install Blinds the way you want</h3>
+                    <h3 className="text-3xl mt-8">Install Blinds according to your setup</h3>
                     <p className="text-xl mt-2">Activate dark mode in your website with Blinds - Use the CDN, or install via NPM package manager</p>
                     <Link to="/docs" className="inline-block mt-2 link">
                         Read installation docs

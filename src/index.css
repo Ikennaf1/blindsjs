@@ -47,7 +47,7 @@ code {
 }
 
 .jumbotron {
-  background-image: url('../public/jumbotron.jpg');
+  background-image: url('../public/jumbo-bg.jpg');
 }
 
 .cta h2 {
@@ -55,7 +55,7 @@ code {
 }
 
 .cta p {
-  @apply text-base md:text-lg lg:text-xl xl:text-2xl text-gray-400 drop-shadow-sm;
+  @apply text-base md:text-lg lg:text-xl xl:text-2xl text-gray-300 drop-shadow-sm;
 }
 
 .main {
@@ -131,7 +131,20 @@ code {
 }
 
 .section-two-items {
+  min-width: 0px;
+  flex: 1;
   @apply mt-8 sm:mt-0;
+}
+
+.section-three-items {
+  min-width: 0px;
+  flex: 1;
+  @apply mt-8 sm:mt-0 p-8 rounded-md shadow-md;
+}
+
+.section-three-item-vertical-center {
+  /* top: 30%; */
+  /* transform: translateY(35%); */
 }
 
 blockquote.twitter-tweet {

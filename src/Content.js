@@ -6,7 +6,7 @@ import SectionFour from "./SectionFour";
 
 const Content = () => {
     return (
-        <div className="absolute top-[640px] sm:top-[756px] w-full mt-8">
+        <div className="absolute top-[670px] sm:top-[756px] w-full mt-8">
             <div>
                 {/* Carbon ad goes here */}
             </div>
