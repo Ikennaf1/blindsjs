@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
-import CodeClip from "./CodeClip"
+import { Link } from "react-router-dom";
+import CodeClip from "./CodeClip";
 
 const SectionOne = () => {
     return (

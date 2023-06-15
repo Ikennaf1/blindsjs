@@ -1,4 +1,4 @@
-import CodeClip from "./CodeClip"
+import CodeClip from "./CodeClip";
 import { Link } from "react-router-dom";
 
 const SectionTwo = () => {
@@ -12,7 +12,7 @@ const SectionTwo = () => {
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
                             </svg>
                         </div>
-                        <div className="inline-flex items-center justify-center w-16 h-16 mx-auto text-3xl text-gray-300">+</div>
+                        <div className="inline-flex items-center justify-center w-16 h-16 mx-auto text-2xl text-gray-300">+</div>
                         <div className="inline-flex items-center justify-center bg-[#ff6644]/20 w-16 h-16 rounded-2xl mx-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff6644" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />

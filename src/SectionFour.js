@@ -1,4 +1,7 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import wpLogo from './images/wordpress.jpg';
+import shopifyLogo from './images/shopify.png';
+import drupalLogo from './images/drupal.jpg';
 
 const SectionFour = () => {
     return (
@@ -12,10 +15,18 @@ const SectionFour = () => {
                     </div>
                     <h4 className="mt-4 font-bold text-lg">Blinds is coming soon in your favorite CMS</h4>
                     {/* <p className="mt-4">Skip the default icons. Get the freedom to use any markup, image, or SVG you wantfor your toggle icons.</p> */}
-                    <div>
-                        {/*  */}
+                    <div className="flex mt-4 justify-center gap-10">
+                        <div className="w-16 h-16 object-cover rounded-full overflow-hidden shadow-md">
+                            <img src={wpLogo} alt="wordpress" className="object-cover" />
+                        </div>
+                        <div className="w-16 h-16 object-cover rounded-full overflow-hidden shadow-md">
+                            <img src={shopifyLogo} alt="shopify" className="object-cover" />
+                        </div>
+                        <div className="w-16 h-16 object-cover rounded-full overflow-hidden shadow-md">
+                            <img src={drupalLogo} alt="drupal" className="object-cover" />
+                        </div>
                     </div>
-                    <Link to="/docs" className="inline-block mt-2 link">
+                    <Link to="/docs" className="inline-block mt-4 link">
                         Get started
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" className="inline-block ml-2 w-4 h-4">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -24,7 +35,6 @@ const SectionFour = () => {
                 </div>
             </div>
         </section>
-        // Blinds is coming soon in your favorite CMS
     );
 }
 
