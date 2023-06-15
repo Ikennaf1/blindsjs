@@ -1,8 +1,18 @@
 import { Link } from "react-router-dom";
+import TopicCollapsible from "./TopicCollapsible";
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <header className="jumbotron absolute top-0 w-full h-[670px] sm:h-[756px] w-full bg-cover bg-center bg-no-repeat">
+            <TopicCollapsible>
+                <div className="mt-5 h-1/2 overflow-y-auto">
+                    <ul id="topic_list_collapsible">
+                        <NavLink to='/docs' className="topic-list-items-collapsible"><li>Documentation</li></NavLink>
+                        <NavLink to='/docs' className="topic-list-items-collapsible"><li>Blog</li></NavLink>
+                    </ul>
+                </div>
+            </TopicCollapsible>
             {/* <div className="absolute top-0 w-full h-full bg-black"></div> */}
             <div className="cta mt-24 body-margin h-[85%]">
                 <div className="w-24 h-24 sm:w-40 sm:h-40 m-auto">
