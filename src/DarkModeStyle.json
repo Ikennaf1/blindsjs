@@ -1,0 +1,33 @@
+{
+    "body": {
+      "background-color": "hsl(228, 20%, 12%)",
+      "color": "hsl(228, 0%, 70%)"
+    },
+    ".footer": {
+        "background-color": "hsl(228, 20%, 10%)",
+        "color": "hsl(228, 0%, 70%)",
+        "border-color": "hsl(228, 0%, 15%)"
+    },
+    ".section-one-items": {
+        "background-color": "hsl(228, 20%, 10%)",
+        "color": "hsl(228, 0%, 70%)",
+        "border-color": "hsl(228, 0%, 15%)"
+    },
+    ".section-three-items": {
+        "background-color": "hsl(228, 20%, 10%)",
+        "color": "hsl(228, 0%, 70%)",
+        "border-color": "hsl(228, 0%, 15%)"
+    },
+    ".article": {
+        "background-color": "hsl(228, 20%, 10%)",
+        "color": "hsl(228, 0%, 70%)"
+    },
+    ".article h2": {
+        "color": "hsl(228, 0%, 70%)"
+    },
+    ".link-btn": {
+        "background-color": "hsl(228, 20%, 12%)",
+        "color": "hsl(228, 0%, 70%)",
+        "border-color": "hsl(228, 0%, 15%)"
+    }
+}

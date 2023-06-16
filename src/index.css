@@ -142,11 +142,6 @@ code {
   @apply mt-8 sm:mt-0 p-8 rounded-md shadow-md;
 }
 
-.section-three-item-vertical-center {
-  /* top: 30%; */
-  /* transform: translateY(35%); */
-}
-
 blockquote.twitter-tweet {
   display: inline-block;
   font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;

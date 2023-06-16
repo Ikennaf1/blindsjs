@@ -1,4 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { useEffect } from 'react';
+import { blindsInit, blindsToggle, setBlindsStyles } from 'blinds';
+import DarkModeStyle from './DarkModeStyle.json';
 import ScrollToTop from './ScrollToTop';
 import './App.css';
 import Nav from './Nav';
@@ -11,6 +14,17 @@ import V0CustomStyling from './docs/v0/CustomStyling';
 import V0CustomIcons from './docs/v0/CustomIcons';
 
 function App() {
+
+  useEffect(() => {
+    setBlindsStyles(DarkModeStyle);
+
+    blindsInit();
+
+    document.querySelector('#blinds_id').onclick = () => {
+      blindsToggle();
+    }
+  }, [blindsInit, blindsToggle]);  
+
   return (
     <BrowserRouter>
       <div>
