@@ -3,14 +3,9 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
         <nav className="nav fixed top-0 w-full z-10 shadow-md">
-            <div className="h-16 flex items-center justify-between body-margin">
-                <label htmlFor="collapsedNav" className="mr-3 p-1 fixed md:hidden rounded-full hover:bg-gray-800 cursor-pointer">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
-                    </svg>
-                </label>
+            <div className="h-16 flex items-center justify-between body-margin">                
                 <a href="/">
-                    <div className="flex items-center justify-left ml-10 md:ml-0">
+                    <div className="flex items-center justify-left md:ml-0">
                         <div className="link" style={{"width": "3rem", "height": "3rem", "display": "inline-block", "color": "coral", "marginTop": 17}}>
                             <svg viewBox="0 0 700 700">
                                 <g id="Layer_1">
@@ -46,6 +41,11 @@ const Nav = () => {
                             <a className="link" href="/" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-hidden="true" fill="currentColor" width="16"><path d="M28 6.937c-.957.425-1.985.711-3.064.84a5.343 5.343 0 0 0 2.345-2.951 10.696 10.696 0 0 1-3.388 1.295 5.334 5.334 0 0 0-9.089 4.864A15.143 15.143 0 0 1 3.809 5.411a5.321 5.321 0 0 0-.721 2.683 5.33 5.33 0 0 0 2.372 4.439 5.323 5.323 0 0 1-2.416-.667v.067a5.335 5.335 0 0 0 4.279 5.23 5.336 5.336 0 0 1-2.409.092 5.34 5.34 0 0 0 4.983 3.705 10.699 10.699 0 0 1-6.625 2.284c-.43 0-.855-.025-1.273-.075a15.102 15.102 0 0 0 8.177 2.396c9.812 0 15.176-8.128 15.176-15.177 0-.231-.005-.461-.015-.69A10.855 10.855 0 0 0 28 6.937z"></path></svg></a>
                         </li>
                         {/* <li className="uppercase hidden sm:block ml-5 bg-blue-500 text-white cursor-pointer p-3 rounded font-bold hover:bg-blue-600">Starter Templates</li> */}
+                        <label htmlFor="collapsedNav" className="ml-5 p-1 md:hidden rounded-full hover:bg-gray-800 cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+                            </svg>
+                        </label>
                     </ul>
                 </div>
             </div>

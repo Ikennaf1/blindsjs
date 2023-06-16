@@ -51,7 +51,7 @@ code {
 }
 
 .cta h2 {
-  @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-black lg:font-bold drop-shadow-sm;
+  @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-black lg:font-bold drop-shadow-lg;
 }
 
 .cta p {
