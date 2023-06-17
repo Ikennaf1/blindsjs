@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import { blindsInit, blindsToggle, setBlindsStyles } from 'blinds';
+import { blindsInit, blindsToggle, setBlindsStyles, isDarkMode, activateDarkMode, deactivateDarkMode } from 'blinds';
 import DarkModeStyle from './DarkModeStyle.json';
 import ScrollToTop from './ScrollToTop';
 import './App.css';
@@ -18,28 +18,30 @@ function App() {
   useEffect(() => {
     setBlindsStyles(DarkModeStyle);
 
-    blindsInit();
-
     document.querySelector('#blinds_id').onclick = () => {
       blindsToggle();
     }
-  }, [blindsInit, blindsToggle]);  
+
+    return ( () => {
+      blindsInit();      
+    });
+  });
 
   return (
     <BrowserRouter>
       <div>
         <Nav />
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/docs" element={<Navigate to="/docs/v0/installation" replace={true} />} />
-            <Route path="/docs/v0" element={<Navigate to="/docs/v0/installation" replace={true} />} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/docs" element={<Navigate to="/docs/v0/installation" replace={true} />} />
+          <Route path="/docs/v0" element={<Navigate to="/docs/v0/installation" replace={true} />} />
 
-            <Route path="/docs/v0/installation" element={<V0Installation />} />
-            <Route path="/docs/v0/quick-start" element={<V0QuickStart />} />
-            <Route path="/docs/v0/custom-styling" element={<V0CustomStyling />} />
-            <Route path="/docs/v0/custom-icons" element={<V0CustomIcons />} />
-          </Routes>
+          <Route path="/docs/v0/installation" element={<V0Installation />} />
+          <Route path="/docs/v0/quick-start" element={<V0QuickStart />} />
+          <Route path="/docs/v0/custom-styling" element={<V0CustomStyling />} />
+          <Route path="/docs/v0/custom-icons" element={<V0CustomIcons />} />
+        </Routes>
 
         <Footer />
       </div>

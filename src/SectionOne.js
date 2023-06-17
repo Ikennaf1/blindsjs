@@ -22,9 +22,10 @@ const SectionOne = () => {
                 </div>
                 <div className="block w-full sm:mt-8 sm:mt-16 sm:flex sm:justify-between sm:gap-10">
                     <div className="section-one-items">
-                        <div className="flex items-center justify-center bg-[#aa00ff]/20 w-12 h-12 rounded-xl mx-auto">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#aa00ff" className="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m8.25 3v6.75m0 0l-3-3m3 3l3-3M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                        <div className="flex items-center justify-center bg-[#4524bc]/20 w-12 h-12 rounded-xl mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#4524bc" class="w-6 h-6">
+                                <path d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
+                                <path fill-rule="evenodd" d="M3.087 9l.54 9.176A3 3 0 006.62 21h10.757a3 3 0 002.995-2.824L20.913 9H3.087zM12 10.5a.75.75 0 01.75.75v4.94l1.72-1.72a.75.75 0 111.06 1.06l-3 3a.75.75 0 01-1.06 0l-3-3a.75.75 0 111.06-1.06l1.72 1.72v-4.94a.75.75 0 01.75-.75z" clip-rule="evenodd" />
                             </svg>
                         </div>
                         <h4 className="mt-4 font-bold text-lg text-center">Install via NPM</h4>
@@ -37,15 +38,15 @@ const SectionOne = () => {
                     </div>
                     <div className="section-one-items">
                         <div className="flex items-center justify-center bg-[#aa00ff]/20 w-12 h-12 rounded-xl mx-auto">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#aa00ff" className="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9.75v6.75m0 0l-3-3m3 3l3-3m-8.25 6a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#aa00ff" class="w-6 h-6">
+                                <path fill-rule="evenodd" d="M10.5 3.75a6 6 0 00-5.98 6.496A5.25 5.25 0 006.75 20.25H18a4.5 4.5 0 002.206-8.423 3.75 3.75 0 00-4.133-4.303A6.001 6.001 0 0010.5 3.75zm2.25 6a.75.75 0 00-1.5 0v4.94l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V9.75z" clip-rule="evenodd" />
                             </svg>
                         </div>
                         <h4 className="mt-4 font-bold text-lg text-center">Include via CDN</h4>
                         <p className="mt-4">Include Blinds via CDN in your HTML as a quick set up script and easily modernize your website with a dark mode user interface.</p>
                         <div className="mt-4">
                             <CodeClip id="cdn">
-                                {`<script src="https://cdn.jsdelivr.net/gh/Ikennaf1/blinds@0.6.1/dist/blinds.min.js" defer></script>`} 
+                                {`<script src="https://cdn.jsdelivr.net/gh/Ikennaf1/blinds@latest/dist/blinds.min.js" defer></script>`} 
                             </CodeClip>
                         </div>
                     </div>

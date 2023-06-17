@@ -7,7 +7,7 @@ const Topic = ({ children, title, description, prev, next }) => {
     
     var ogTitle, ogUrl, ogDescription, ogImage, ogImageWidth, ogImageHeight, ogType;
 
-    const page = () => {
+    const head = () => {
         document.title = `Blinds | ${title}`;
 
         ogTitle = document.createElement('meta');
@@ -46,7 +46,7 @@ const Topic = ({ children, title, description, prev, next }) => {
         document.head.appendChild(ogType);
     }
 
-    const cleanPage = () => {
+    const cleanHead = () => {
         document.head.removeChild(ogTitle);
         document.head.removeChild(ogUrl);
         document.head.removeChild(ogDescription);
@@ -57,9 +57,9 @@ const Topic = ({ children, title, description, prev, next }) => {
     }
 
     useEffect(() => {
-        page();
+        head();
         return () => {
-            cleanPage();
+            cleanHead();
         }
     });
 
