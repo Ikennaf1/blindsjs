@@ -4,7 +4,7 @@ import SectionTwo from "./SectionTwo";
 import SectionThree from "./SectionThree";
 import SectionFour from "./SectionFour";
 
-const Content = () => {
+const HomeContent = () => {
     return (
         <div className="absolute top-[670px] sm:top-[756px] w-full mt-8">
             <div>
@@ -19,4 +19,4 @@ const Content = () => {
     );
 }
 
-export default Content;
+export default HomeContent;

@@ -1,5 +1,6 @@
 import Topic from '../../Topic';
 import CodeEmbed from '../../CodeEmbed';
+import CodeClip from '../../CodeClip';
 
 const Installation = () => {
     return (
@@ -29,14 +30,25 @@ const Installation = () => {
             <p>
                 To get blinds via CDN, add the following code to your HTML:
             </p><br />
-            <CodeEmbed title="blindscdn0" width="100%" height="120" script="https://gist.github.com/Ikennaf1/f1da00a417cf87666b6652e8a126dc97.js" />
+            {/* <CodeEmbed title="blindscdn0" width="100%" height="120" script="https://gist.github.com/Ikennaf1/f1da00a417cf87666b6652e8a126dc97.js" /> */}
+            <div className="w-full max-w-[80vw] sm:max-w-[60vw] md:max-w-[40vw] lg:max-w-[40vw] xl:max-w-[30vw]">
+                <CodeClip id="viacdn">
+                    {`<script src="https://cdn.jsdelivr.net/gh/Ikennaf1/blinds@latest/dist/blinds.min.js" defer></script>`}
+                </CodeClip>
+            </div>
+            
 
             <h3 id="npm">Via NPM</h3>
             <p>
                 To get blinds via NPM, open your terminal and make sure you're in your project's root directory.<br />
                 Run the following command in your root directory to get blinds install to your project:
             </p><br />
-            <CodeEmbed title="blindsnpm0" width="100%" height="100" script="https://gist.github.com/Ikennaf1/4469c937c96694c98f86a3ed02c5d191.js" />
+            {/* <CodeEmbed title="blindsnpm0" width="100%" height="100" script="https://gist.github.com/Ikennaf1/4469c937c96694c98f86a3ed02c5d191.js" /> */}
+            <div className="w-full max-w-[80vw] sm:max-w-[60vw] md:max-w-[40vw] lg:max-w-[40vw] xl:max-w-[30vw]">
+                <CodeClip id="vianpm">
+                    npm install --save blinds
+                </CodeClip>
+            </div>
         </Topic>
     );
 }

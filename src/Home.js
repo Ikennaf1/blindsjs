@@ -1,11 +1,14 @@
 import Header from "./Header";
-import Content from "./Content";
+import HomeContent from "./HomeContent";
+import Meta from "./Meta";
 
 const Home = () => {
     return (
         <div>
             <Header />
-            <Content />
+            <HomeContent />
+
+            <Meta title="RAAAAAAAAAAA" />
         </div>
     );
 }

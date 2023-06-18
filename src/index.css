@@ -59,7 +59,7 @@ code {
 }
 
 .main {
-  @apply pt-20;
+  @apply pt-32;
 }
 
 .article-left-margin {
