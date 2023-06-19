@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import { blindsInit, blindsToggle, setBlindsStyles, isDarkMode, activateDarkMode, deactivateDarkMode } from 'blinds';
+import { blindsInit, blindsToggle, setBlindsStyles } from 'blinds';
 import DarkModeStyle from './DarkModeStyle.json';
 import ScrollToTop from './ScrollToTop';
 import './App.css';
