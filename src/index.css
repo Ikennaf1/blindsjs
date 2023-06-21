@@ -47,7 +47,7 @@ code {
 }
 
 .jumbotron {
-  background-image: url('../public/jumbo-bg.jpg');
+  background-image: url('https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/jumbo-bg.jpg');
 }
 
 .cta h2 {

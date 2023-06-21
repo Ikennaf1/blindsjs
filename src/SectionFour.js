@@ -1,7 +1,4 @@
 import { Link } from "react-router-dom";
-import wpLogo from './images/wordpress.jpg';
-import shopifyLogo from './images/shopify.png';
-import drupalLogo from './images/drupal.jpg';
 
 const SectionFour = () => {
     return (
@@ -18,13 +15,13 @@ const SectionFour = () => {
                     <p className="mt-4">Blinds will become availble starting with WordPress, drupal, and shopify.<br />We are making the best dark mode package available all over the web no matter what your platform is.</p>
                     <div className="flex mt-4 justify-center gap-10">
                         <div className="w-16 h-16 object-cover rounded-full overflow-hidden shadow-md">
-                            <img src={wpLogo} alt="wordpress" className="object-cover" />
+                            <img src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/wordpress.jpg" alt="wordpress" className="object-cover" />
                         </div>
                         <div className="w-16 h-16 object-cover rounded-full overflow-hidden shadow-md">
-                            <img src={shopifyLogo} alt="shopify" className="object-cover" />
+                            <img src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/shopify.png" alt="shopify" className="object-cover" />
                         </div>
                         <div className="w-16 h-16 object-cover rounded-full overflow-hidden shadow-md">
-                            <img src={drupalLogo} alt="drupal" className="object-cover" />
+                            <img src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/drupal.jpg" alt="drupal" className="object-cover" />
                         </div>
                     </div>
                     <Link to="/docs" className="inline-block mt-4 link">
