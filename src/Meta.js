@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 
 export default function Meta({
     title       = '',
@@ -61,6 +61,8 @@ export default function Meta({
     }
 
     const cleanHead = () => {
+        document.head.removeChild(pageAuthor);
+        document.head.removeChild(pageKeywords);
         document.head.removeChild(ogTitle);
         document.head.removeChild(ogUrl);
         document.head.removeChild(ogDescription);

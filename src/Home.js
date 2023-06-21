@@ -8,7 +8,7 @@ const Home = () => {
             <Header />
             <HomeContent />
 
-            <Meta title="RAAAAAAAAAAA" />
+            <Meta title="Homepage" />
         </div>
     );
 }
