@@ -1,5 +1,4 @@
 import Topic from '../../Topic';
-import CodeEmbed from '../../CodeEmbed';
 import CodeClip from '../../CodeClip';
 
 const CustomIcons = () => {
@@ -28,8 +27,8 @@ const CustomIcons = () => {
             <div className="w-full max-w-[80vw] sm:max-w-[60vw] md:max-w-[40vw] lg:max-w-[40vw] xl:max-w-[30vw]">
                 <CodeClip id="seticons">
                     {`setBlindsIcons({
-  "normal": "<button>Normal<\/button>",
-  "dark": "<button>Dark<\/button>"
+  "normal": "<button>Normal</button>",
+  "dark": "<button>Dark</button>"
 });
 
 blindsInit();`}

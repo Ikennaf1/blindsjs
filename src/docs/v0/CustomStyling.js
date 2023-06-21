@@ -1,5 +1,4 @@
 import Topic from '../../Topic';
-import CodeEmbed from '../../CodeEmbed';
 import CodeClip from '../../CodeClip';
 
 const CustomStyling = () => {

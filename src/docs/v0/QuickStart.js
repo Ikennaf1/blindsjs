@@ -1,6 +1,5 @@
 import Topic from '../../Topic';
 import { Link } from 'react-router-dom';
-import CodeEmbed from '../../CodeEmbed';
 import CodeClip from '../../CodeClip';
 
 const QuickStart = () => {
