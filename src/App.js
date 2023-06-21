@@ -18,6 +18,8 @@ function App() {
   useEffect(() => {
     setBlindsStyles(DarkModeStyle);
 
+    blindsInit();
+
     document.querySelector('#blinds_id').onclick = () => {
       blindsToggle();
     }
