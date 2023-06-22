@@ -7,6 +7,7 @@ import './App.css';
 import Nav from './Nav';
 import Footer from './Footer';
 import Home from './Home';
+import LoadPageOne from './LoadPageOne.js';
 
 const V0QuickStart = lazy(() => import('./docs/v0/QuickStart'));
 const V0Installation = lazy(() => import('./docs/v0/Installation'));
@@ -39,10 +40,11 @@ function App() {
           <Route path="/docs" element={<Navigate to="/docs/v0/installation" replace={true} />} />
           <Route path="/docs/v0" element={<Navigate to="/docs/v0/installation" replace={true} />} />
 
-          <Route path="/docs/v0/quick-start" element={<Suspense fallback={<h2>loading...</h2>}><V0QuickStart /></Suspense>} />
-          <Route path="/docs/v0/installation" element={<Suspense fallback={<h2>loading...</h2>}><V0Installation /></Suspense>} />
-          <Route path="/docs/v0/custom-styling" element={<Suspense fallback={<h2>loading...</h2>}><V0CustomStyling /></Suspense>} />
-          <Route path="/docs/v0/custom-icons" element={<Suspense fallback={<h2>loading...</h2>}><V0CustomIcons /></Suspense>} />
+          <Route path="/docs/v0/quick-start" element={<Suspense fallback={<LoadPageOne />}><V0QuickStart /></Suspense>} />
+          <Route path="/docs/v0/installation" element={<Suspense fallback={<LoadPageOne />}><V0Installation /></Suspense>} />
+          <Route path="/docs/v0/custom-styling" element={<Suspense fallback={<LoadPageOne />}><V0CustomStyling /></Suspense>} />
+          <Route path="/docs/v0/custom-icons" element={<Suspense fallback={<LoadPageOne />}><V0CustomIcons /></Suspense>} />
+          <Route path="/load" element={<LoadPageOne />} />
         </Routes>
 
         <Footer />

@@ -3,13 +3,13 @@ import { useEffect } from 'react';
 export default function Meta({
     title       = '',
     author      = '',
-    keywords    = '',
-    description = '',
-    og_image    = '',
-    og_type     = ''
+    keywords    = 'dark mode night mode front end',
+    description = 'The best dark mode package for your website',
+    og_image    = 'https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/og-blinds.jpg',
+    og_type     = 'article'
 }) {
 
-    var pageKeywords, pageAuthor, ogTitle, ogUrl, ogDescription, ogImage, ogImageWidth, ogImageHeight, ogType;
+    var pageKeywords, pageAuthor, pageDescription, ogTitle, ogUrl, ogDescription, ogImage, ogImageWidth, ogImageHeight, ogType;
 
     const head = () => {
         document.title = `Blinds | ${title}`;
@@ -23,6 +23,11 @@ export default function Meta({
         pageKeywords.setAttribute('name', 'keywords');
         pageKeywords.setAttribute('content', keywords);
         document.head.appendChild(pageKeywords);
+
+        pageDescription = document.createElement('meta');
+        pageDescription.setAttribute('name', 'description');
+        pageDescription.setAttribute('content', description);
+        document.head.appendChild(pageDescription);
 
         ogTitle = document.createElement('meta');
         ogTitle.setAttribute('property', 'og:title');
