@@ -1,10 +1,11 @@
 import Topic from '../../Topic';
 import { Link } from 'react-router-dom';
 import CodeClip from '../../CodeClip';
+import Meta from '../../Meta';
 
 const QuickStart = () => {
     return (
-        <Topic title="Quick start" description="A quick start guide for implementing dark mode using the blinds package." prev="/docs/v0/installation" next="/docs/v0/custom-styling">
+        <Topic prev="/docs/v0/installation" next="/docs/v0/custom-styling">
             <p>
                 This guide is a continuation of the previous.<br/>
                 If you have not installed blinds, and do not know how, now might be a good time to <Link to="/docs/v0/installation" className="link">visit the previous guide</Link>, and follow the instructions.
@@ -77,6 +78,7 @@ document.querySelector('#blinds_id').onclick = () => {
                 Now when you click the icons, your website toggles from dark mode to normal mode. Just like that!<br />
                 In the next guide <Link to="/docs/v0/custom-styling" className="link">add custom styling</Link>, we will go through the steps needed for you to enforce your own dark mode style instead of using the default style that comes with blinds.
             </p>
+            <Meta title="Quick start" description="A quick start guide for implementing dark mode using the blinds package." />
         </Topic>
     );
 }

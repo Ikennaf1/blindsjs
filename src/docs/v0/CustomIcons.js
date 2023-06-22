@@ -1,9 +1,10 @@
 import Topic from '../../Topic';
 import CodeClip from '../../CodeClip';
+import Meta from '../../Meta';
 
 const CustomIcons = () => {
     return (
-        <Topic title="Using custom icons" description="Using custom icons for toggling." prev="/docs/v0/custom-styling" next="/docs/v0/custom-icons-id">
+        <Topic prev="/docs/v0/custom-styling" next="/docs/v0/custom-icons-id">
             <p>
                 Just like in styling, you may also not like the default icons that ship with bilinds.
                 The good news is you can do something about it. In this guide, you will discover how to easy it is to change the toggle icons from the default, to your own preferred icons (or even text).
@@ -37,6 +38,7 @@ blindsInit();`}
             <p>
                 Now when you view your webpage, you will see a nice button instead of the default icons that ship with blinds.
             </p>
+            <Meta title="Using custom icons" description="Using custom icons for toggling." />
         </Topic>
     );
 }

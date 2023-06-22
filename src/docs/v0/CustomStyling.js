@@ -1,9 +1,10 @@
 import Topic from '../../Topic';
 import CodeClip from '../../CodeClip';
+import Meta from '../../Meta';
 
 const CustomStyling = () => {
     return (
-        <Topic title="Adding custom styling" description="Adding custom styling to your dark mode." prev="/docs/v0/quick-start" next="/docs/v0/custom-icons">
+        <Topic prev="/docs/v0/quick-start" next="/docs/v0/custom-icons">
             <p>
                 Blinds ships with a custom dark mode style. But most times, that will not be what you want.<br />
                 You may want a style that conforms with your existing UI/UX. This is the reason why there is the ability to provide custom styling to your dark mode.
@@ -52,6 +53,7 @@ blindsInit();`}
                 As you can see, there is little difference between normal CSS and the code above. The only difference is that you have to write your styles in JSON format.<br />
                 Everything else remains the same, including the CSS selectors, the properties, and their corresponding values.
             </p>
+            <Meta title="Adding custom styling" description="Adding custom styling to your dark mode." />
         </Topic>
     );
 }

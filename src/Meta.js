@@ -14,6 +14,28 @@ export default function Meta({
     const head = () => {
         document.title = `Blinds | ${title}`;
 
+        if (document.querySelector('meta[name="author"]')) {
+            document.head.removeChild(document.querySelector('meta[name="author"]'))
+        }
+        if (document.querySelector('meta[name="keywords"]')) {
+            document.head.removeChild(document.querySelector('meta[name="keywords"]'))
+        }
+        if (document.querySelector('meta[name="description"]')) {
+            document.head.removeChild(document.querySelector('meta[name="description"]'))
+        }
+        if (document.querySelector('meta[property="og:title"]')) {
+            document.head.removeChild(document.querySelector('meta[property="og:title"]'))
+        }
+        if (document.querySelector('meta[property="og:url"]')) {
+            document.head.removeChild(document.querySelector('meta[property="og:url"]'))
+        }
+        if (document.querySelector('meta[property="og:description"]')) {
+            document.head.removeChild(document.querySelector('meta[property="og:description"]'))
+        }
+        if (document.querySelector('meta[property="og:image"]')) {
+            document.head.removeChild(document.querySelector('meta[property="og:image"]'))
+        }
+
         pageAuthor = document.createElement('meta');
         pageAuthor.setAttribute('name', 'author');
         pageAuthor.setAttribute('content', author);
@@ -68,6 +90,7 @@ export default function Meta({
     const cleanHead = () => {
         document.head.removeChild(pageAuthor);
         document.head.removeChild(pageKeywords);
+        document.head.removeChild(pageDescription);
         document.head.removeChild(ogTitle);
         document.head.removeChild(ogUrl);
         document.head.removeChild(ogDescription);
