@@ -39,7 +39,7 @@ const Installation = () => {
 
             <h3 id="npm">Via NPM</h3>
             <p>
-                To get blinds via NPM, open your terminal and make sure you're in your project's root directory.<br />
+                To get blinds via NPM, open your terminal and make sure you are in your project&apos;s root directory.<br />
                 Run the following command in your root directory to get blinds install to your project:
             </p><br />
             <div className="w-full max-w-[80vw] sm:max-w-[60vw] md:max-w-[40vw] lg:max-w-[40vw] xl:max-w-[30vw]">
