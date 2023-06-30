@@ -7,7 +7,7 @@ export const metadata = {
     keywords: ['dark', 'dark mode', 'night mode'],
   
     openGraph: {
-      title: 'Blinds',
+      title: 'Blinds | Custom Icons',
       description: 'The best dark mode package for all websites',
       url: 'https://blindjs.dev',
       images: [
