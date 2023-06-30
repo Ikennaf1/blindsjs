@@ -6,12 +6,22 @@ import logoDark from '/public/logo-no-bg-dark.svg';
 import toggleIcon from '/public/bars-3-bottom-right.svg';
 
 export const metadata = {
-  title: 'Blinds | About us',
+  metadataBase: new URL('https://raw.githubusercontent.com'),
+  title: 'Blinds | About',
   description: 'The best dark mode package for all websites',
+  keywords: ['dark', 'dark mode', 'night mode'],
+
   openGraph: {
-    title: 'Blinds | About us',
+    title: 'Blinds',
     description: 'The best dark mode package for all websites',
-    image: 'https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/og-blinds.jpg'
+    url: 'https://blindjs.dev',
+    images: [
+      {
+        url: 'https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/og-blinds.jpg',
+        width: '1200',
+        height: '630'
+      }
+    ],
   }
 }
 

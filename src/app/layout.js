@@ -3,6 +3,7 @@ import './globals.css';
 import Footer from './Footer';
 
 export const metadata = {
+  metadataBase: new URL('https://raw.githubusercontent.com'),
   title: 'Blinds',
   description: 'The best dark mode package for all websites',
   keywords: ['dark', 'dark mode', 'night mode'],
