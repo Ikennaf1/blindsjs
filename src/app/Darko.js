@@ -14,9 +14,9 @@ const Darko = () => {
       blindsToggle();
     }
 
-    return ( () => {
-      blindsInit();
-    });
+    // return ( () => {
+    //   blindsInit();
+    // });
   });
 }
 

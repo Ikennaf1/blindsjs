@@ -268,9 +268,12 @@ const AboutUs = () => {
                   <a className="z-10 w-40 mx-auto px-5 py-4 bg-none border-2 border-[#cece32] hover:bg-[#cece32] text-white hover:text-black hover:shadow-lg rounded-3xl ease-linear duration-100 uppercase font-bold text-xs" href="/">Get started</a>
               </div>
               <div className="section-two-items text-gray-300">
-                <img
+                <Image
                  src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/team.jpg"
+                 width="640"
+                 height="427"
                  className="object-cover"
+                 alt="Team"
                 />
               </div>
           </div>
