@@ -138,7 +138,7 @@ const AboutUs = () => {
             <span>01</span>
           </div>
 
-          <img
+          <Image
            src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/vertical_line.png"
            width="4"
            height="94"
@@ -150,7 +150,7 @@ const AboutUs = () => {
           We believe that every organization deserves a remarkable website<br />
           that resonates with their audience and represents their unique identity. Whether it is a sleek corporate site,<br />a captivating e-commerce platform, or an engaging web app, we are here to make your digital aspirations a reality.</p>
 
-          <img
+          <Image
            src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/vertical_line.png"
            width="4"
            height="94"
@@ -165,7 +165,7 @@ const AboutUs = () => {
         <div className="body-margin text-center flex flex-col items-center gap-4 overflow-hidden py-16 text-gray-200">
           <p className="z-10 text-xl md:text-2xl lg:text-3xl font-bold text-white">Core Values</p>
 
-          <img
+          <Image
            src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/vertical_line.png"
            width="4"
            height="94"
@@ -190,7 +190,7 @@ const AboutUs = () => {
             <span>02</span>
           </div>
 
-          <img
+          <Image
            src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/vertical_line.png"
            width="4"
            height="94"
@@ -213,7 +213,7 @@ const AboutUs = () => {
             deliver outstanding results that leave a lasting impact on your audience.</p>
           </div>
 
-          <img
+          <Image
            src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/vertical_line.png"
            width="4"
            height="94"
