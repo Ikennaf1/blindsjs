@@ -38,7 +38,7 @@ const DocLayout = ({ children }) => {
         );
     }
 
-    const topicListCollapsible = () => {
+    const TopicListCollapsible = () => {
         const pathname = usePathname();
         const [allTopics] = useState(Object.entries(topics));
 
@@ -71,7 +71,7 @@ const DocLayout = ({ children }) => {
                         <Link href='/documentation' className="topic-list-items-collapsible"><li>Products</li></Link>
                     </ul>
                     <div className="">
-                        { topicListCollapsible() }
+                        { TopicListCollapsible() }
                     </div>
                 </div>
             </NavCollapsible>

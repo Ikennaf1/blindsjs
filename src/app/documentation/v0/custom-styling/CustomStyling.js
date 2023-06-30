@@ -14,7 +14,7 @@ const V0CustomStyling = () => {
             </p><br />
 
             <p>
-                First you have to import the <em>setBlindsStyles</em> function. If you're using blinds as a script from CDN, you should skip this step.
+                First you have to import the <em>setBlindsStyles</em> function. If you are using blinds as a script from CDN, you should skip this step.
             </p><br />
             {/* <CodeEmbed title="setBlindsStyles0" width="100%" height="100" script="https://gist.github.com/Ikennaf1/afcdacea739e5513a2e415e738c9191d.js" /> */}
             <div className="w-full max-w-[80vw] sm:max-w-[60vw] md:max-w-[40vw] lg:max-w-[40vw] xl:max-w-[30vw]">
@@ -38,7 +38,7 @@ const V0CustomStyling = () => {
     "background-color": "black",
     "color": "gray"
   },
-  "input [type='text']": {
+  "input [type=\'text\']": {
     "background-color": "black",
     "color": "gray"
   }

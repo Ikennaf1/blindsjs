@@ -37,7 +37,7 @@ const TopicContainer = ({ topics }) => {
      * Gets the list of topics from a JSON file and parses it to an object of
      * topic title - topic address
      */
-    const topicList = () => {
+    const TopicList = () => {
         const [allTopics] = useState(Object.entries(topics));
 
         return (
@@ -60,7 +60,7 @@ const TopicContainer = ({ topics }) => {
 
     return (
         <div>
-            { topicList() }
+            { TopicList() }
         </div>
     );
 }

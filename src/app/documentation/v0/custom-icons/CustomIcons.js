@@ -21,7 +21,7 @@ const V0CustomIcons = () => {
             </div><br />
 
             <p>
-                For the sake of simplicity, and also to show how flexible blinds is, we are going to use a button that says 'Normal' and 'Dark' for the normal and dark modes respectively.
+                For the sake of simplicity, and also to show how flexible blinds is, we are going to use a button that says &apos;Normal&apos; and &apos;Dark&apos; for the normal and dark modes respectively.
             </p><br />
             {/* <CodeEmbed title="setBlindsIcons1" width="100%" height="200" script="https://gist.github.com/Ikennaf1/353be3f1ad46ca60aa78d845db6856c0.js" /><br /> */}
             <div className="w-full max-w-[80vw] sm:max-w-[60vw] md:max-w-[40vw] lg:max-w-[40vw] xl:max-w-[30vw]">
