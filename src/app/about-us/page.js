@@ -148,7 +148,7 @@ const AboutUs = () => {
           <p className="z-10 text-xl md:text-2xl lg:text-3xl">Our Mission: Fueling Your Digital Success</p>
           <p className="z-10 font-light">Our mission at Blinds is simple: to empower businesses and brands in establishing their online presence.<br />
           We believe that every organization deserves a remarkable website<br />
-          that resonates with their audience and represents their unique identity. Whether it's a sleek corporate site,<br />a captivating e-commerce platform, or an engaging web app, we are here to make your digital aspirations a reality.</p>
+          that resonates with their audience and represents their unique identity. Whether it is a sleek corporate site,<br />a captivating e-commerce platform, or an engaging web app, we are here to make your digital aspirations a reality.</p>
 
           <img
            src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/vertical_line.png"
@@ -209,7 +209,7 @@ const AboutUs = () => {
 
             <p className="mt-16 md:mt-0">We believe in both satisfying and surpassing your expectations.
             We are not satisfied with just meeting project requirements; we strive to exceed them.
-            Our team's expertise, dedication, and passion enable us to
+            Our team&apos;s expertise, dedication, and passion enable us to
             deliver outstanding results that leave a lasting impact on your audience.</p>
           </div>
 
@@ -239,7 +239,7 @@ const AboutUs = () => {
           ensuring that every aspect of your website<br />
           functions seamlessly and looks visually stunning.<br />
           From creating responsive designs and intuitive user interfaces to developing robust functionalities and integrations,<br />
-          we've got you covered.<br/>
+          we&apos;ve got you covered.<br/>
           Our expertise extends to various technologies, frameworks, and platforms,<br />
           enabling us to tailor solutions that best suit your unique requirements.</p>
 
@@ -262,9 +262,9 @@ const AboutUs = () => {
         <div className="body-margin py-8">
           <div className="block w-full sm:flex sm:items-center sm:justify-between sm:gap-10">
               <div className="join-team flex flex-col gap-4 text-center z-10 font-light text-white">
-                  <p className="font-bold drop-shadow-lg">Join the Blinds Family: Let's Shape Your Online Presence</p>
-                  <p className="drop-shadow-lg">We invite you to join the Blinds family and experience the transformative power of exceptional web development. With our unparalleled expertise, cutting-edge technology, and unwavering dedication, we'll help you create a striking online presence that captivates your audience and drives your success.</p>
-                  <p className="drop-shadow-lg">Contact us today to discuss your project, and let's embark on an exciting journey to shape your digital future together.</p>
+                  <p className="font-bold drop-shadow-lg">Join the Blinds Family: Let us Shape Your Online Presence</p>
+                  <p className="drop-shadow-lg">We invite you to join the Blinds family and experience the transformative power of exceptional web development. With our unparalleled expertise, cutting-edge technology, and unwavering dedication, we will help you create a striking online presence that captivates your audience and drives your success.</p>
+                  <p className="drop-shadow-lg">Contact us today to discuss your project, and let&apos;s embark on an exciting journey to shape your digital future together.</p>
                   <a className="z-10 w-40 mx-auto px-5 py-4 bg-none border-2 border-[#cece32] hover:bg-[#cece32] text-white hover:text-black hover:shadow-lg rounded-3xl ease-linear duration-100 uppercase font-bold text-xs" href="/">Get started</a>
               </div>
               <div className="section-two-items text-gray-300">
