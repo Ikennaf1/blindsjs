@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const SectionFour = () => {
     return (
@@ -15,13 +17,13 @@ const SectionFour = () => {
                     <p className="mt-4">Blinds will become availble starting with WordPress, drupal, and shopify.<br />We are making the best dark mode package available all over the web no matter what your platform is.</p>
                     <div className="flex mt-4 justify-center gap-10">
                         <div className="w-16 h-16 object-cover rounded-full overflow-hidden shadow-md">
-                            <img src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/wordpress.jpg" alt="wordpress" className="object-cover" />
+                            <Image src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/wordpress.jpg" alt="wordpress" className="object-cover" width="400" height="400" />
                         </div>
                         <div className="w-16 h-16 object-cover rounded-full overflow-hidden shadow-md">
-                            <img src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/shopify.png" alt="shopify" className="object-cover" />
+                            <Image src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/shopify.png" alt="shopify" className="object-cover" width="400" height="400" />
                         </div>
                         <div className="w-16 h-16 object-cover rounded-full overflow-hidden shadow-md">
-                            <img src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/drupal.jpg" alt="drupal" className="object-cover" />
+                            <Image src="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/drupal.jpg" alt="drupal" className="object-cover" width="400" height="400" />
                         </div>
                     </div>
                     <Link href="/docs" className="inline-block mt-4 link">
