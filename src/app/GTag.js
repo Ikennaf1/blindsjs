@@ -4,8 +4,8 @@ const GTag = () => {
     
     return (
         <>
-            <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QQPV08Y9PM" strategy="beforeInteractive" />
-            <Script strategy="beforeInteractive">
+            <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QQPV08Y9PM" />
+            <Script id="gtagId">
                 {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
