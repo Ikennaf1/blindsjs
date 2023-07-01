@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: 'Blinds | About',
     description: 'The best dark mode package for all websites',
-    url: 'https://blindjs.dev',
+    url: 'https://blindsjs.dev',
     images: [
       {
         url: 'https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/og-blinds.jpg',
