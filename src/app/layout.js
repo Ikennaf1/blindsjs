@@ -1,6 +1,7 @@
 import Darko from './Darko';
 import './globals.css';
 import Footer from './Footer';
+import GTag from './GTag';
 
 export const metadata = {
   metadataBase: new URL('https://raw.githubusercontent.com'),
@@ -27,11 +28,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Google tag (gtag.js) */}
+        <GTag />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="dark mode night mode" />
-        {/* <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" /> */}
 
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

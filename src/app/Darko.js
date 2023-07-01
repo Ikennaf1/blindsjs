@@ -13,10 +13,6 @@ const Darko = () => {
     document.querySelector('#blinds_id').onclick = () => {
       blindsToggle();
     }
-
-    // return ( () => {
-    //   blindsInit();
-    // });
   });
 }
 
