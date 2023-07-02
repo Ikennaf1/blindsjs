@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import CodeClip from '../../../CodeClip';
-import Documentation from '../../Documentation';
+import Doc from '../../Doc';
 
 const QuickStart = () => {
     return (
-        <Documentation title="Quick Start" prev="/documentation/v0/installation" next="/documentation/v0/custom-styling">
+        <Doc title="Quick Start" prev="/documentation/v0/installation" next="/documentation/v0/custom-styling">
             <p>
                 This guide is a continuation of the previous.<br/>
                 If you have not installed blinds, and do not know how, now might be a good time to <Link href="/docs/v0/installation" className="link">visit the previous guide</Link>, and follow the instructions.
@@ -77,7 +77,7 @@ document.querySelector('#blinds_id').onclick = () => {
                 Now when you click the icons, your website toggles from dark mode to normal mode. Just like that!<br />
                 In the next guide <Link href="/docs/v0/custom-styling" className="link">add custom styling</Link>, we will go through the steps needed for you to enforce your own dark mode style instead of using the default style that comes with blinds.
             </p>
-        </Documentation>
+        </Doc>
     );
 }
 

@@ -1,9 +1,9 @@
 import CodeClip from '../../../CodeClip';
-import Documentation from '../../Documentation';
+import Doc from '../../Doc';
 
 const Installation = () => {
     return (
-        <Documentation title="Installation" next="/documentation/v0/quick-start">
+        <Doc title="Installation" next="/documentation/v0/quick-start">
             <p>
                 Blinds is a package used to easily add dark mode to a website. But before using blinds, it has to be set up in your project. This guide contains instructions for setting up blinds for use in your website.
             </p>
@@ -47,7 +47,7 @@ const Installation = () => {
                     npm install --save blinds
                 </CodeClip>
             </div>
-        </Documentation>
+        </Doc>
     );
 }
 

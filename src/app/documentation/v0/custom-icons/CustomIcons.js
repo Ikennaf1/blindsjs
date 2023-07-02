@@ -1,9 +1,9 @@
 import CodeClip from '../../../CodeClip';
-import Documentation from '../../Documentation';
+import Doc from '../../Doc';
 
 const V0CustomIcons = () => {
     return (
-        <Documentation title="Custom Styling" next="/documentation/v0/custom-styling" prev="/documentation/v0/custom-icons-id">
+        <Doc title="Custom Styling" prev="/documentation/v0/custom-styling" next="/documentation/v0/custom-icons-id">
             <p>
                 Just like in styling, you may also not like the default icons that ship with bilinds.
                 The good news is you can do something about it. In this guide, you will discover how to easy it is to change the toggle icons from the default, to your own preferred icons (or even text).
@@ -37,7 +37,7 @@ blindsInit();`}
             <p>
                 Now when you view your webpage, you will see a nice button instead of the default icons that ship with blinds.
             </p>
-        </Documentation>
+        </Doc>
     );
 }
 

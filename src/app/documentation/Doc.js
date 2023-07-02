@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Documentation = ({ children, title, next, prev }) => {
+const Doc = ({ children, title, next, prev }) => {
     return (
         <div>
             <h2 className="text-black font-bold text-3xl mb-3 border-b border-gray-300 pb-4">{ title }</h2>
@@ -21,4 +21,4 @@ const Documentation = ({ children, title, next, prev }) => {
     );
 }
 
-export default Documentation;
+export default Doc;

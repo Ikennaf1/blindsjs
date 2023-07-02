@@ -1,9 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import SectionOne from './SectionOne';
-import SectionTwo from './SectionTwo';
-import SectionThree from './SectionThree';
-import SectionFour from './SectionFour';
 import NavCollapsible from './NavCollapsible';
 
 import logoDark from '/public/logo-no-bg-dark.svg';
@@ -92,16 +88,16 @@ const Home = () => {
       </header>
 
       {/* Section One */}
-      <SectionOne />
+      {/* <SectionOne /> */}
 
       {/* Section Two */}
-      <SectionTwo />
+      {/* <SectionTwo /> */}
 
       {/* Section Three */}
-      <SectionThree />
+      {/* <SectionThree /> */}
 
       {/* Section Four */}
-      <SectionFour />
+      {/* <SectionFour /> */}
 
     </main>
   )

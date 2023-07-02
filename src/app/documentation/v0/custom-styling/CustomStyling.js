@@ -1,9 +1,9 @@
 import CodeClip from '../../../CodeClip';
-import Documentation from '../../Documentation';
+import Doc from '../../Doc';
 
 const V0CustomStyling = () => {
     return (
-        <Documentation title="Custom Styling" next="/documentation/v0/custom-icons" prev="/documentation/v0/quick-start">
+        <Doc title="Custom Styling" next="/documentation/v0/custom-icons" prev="/documentation/v0/quick-start">
             <p>
                 Blinds ships with a custom dark mode style. But most times, that will not be what you want.<br />
                 You may want a style that conforms with your existing UI/UX. This is the reason why there is the ability to provide custom styling to your dark mode.
@@ -52,7 +52,7 @@ blindsInit();`}
                 As you can see, there is little difference between normal CSS and the code above. The only difference is that you have to write your styles in JSON format.<br />
                 Everything else remains the same, including the CSS selectors, the properties, and their corresponding values.
             </p>
-        </Documentation>
+        </Doc>
     );
 }
 

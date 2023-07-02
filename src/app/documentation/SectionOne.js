@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import CodeClip from './CodeClip';
+import CodeClip from '../CodeClip';
 
 const SectionOne = () => {
     return (

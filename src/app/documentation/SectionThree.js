@@ -1,4 +1,4 @@
-import CodeClip from "./CodeClip";
+import CodeClip from "../CodeClip";
 import Link from "next/link";
 
 const SectionThree = () => {
