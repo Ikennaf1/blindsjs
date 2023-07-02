@@ -154,8 +154,8 @@ const Documentation = () => {
           </div>
         </div>
 
-        <div className="self-center text-sm">
-          <p>Or read the quick-start guide below &gt;&gt;</p>
+        <div className="self-center text-sm mb-8">
+          <p>Or read our quick-start guide below &gt;&gt;</p>
         </div>
       </header>
 
