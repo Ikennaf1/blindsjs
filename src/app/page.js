@@ -76,7 +76,7 @@ const Home = () => {
                   Blinds provides the scaffold required to give your customers the dark mode user interface necessary for a truely modern website.
               </p>
               <Link href="/docs" className="inline-block rounded-md p-5 mt-8 shadow-lg bg-[#2ec4b6] text-white font-bold uppercase hover:bg-[#289e92] transition duration-100 ease-linear">Get started</Link>
-              <ul className="mt-6 flex justify-center items-center text-gray-400">
+              <ul className="mt-6 flex justify-center items-center text-gray-400 text-sm">
                   <li className="mx-3">Currently v0.6.2</li>
                   <li>·</li>
                   <li className="mx-3"><a href="https://github.com/Ikennaf1/blinds">Visit Github</a></li>

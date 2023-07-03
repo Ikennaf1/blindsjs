@@ -242,7 +242,7 @@ body {
 }
 
 .doc-header-list {
-  @apply border-gray-200 overflow-hidden w-full md:w-[50%] md:h-[50%] hover:bg-gray-200 transition ease-in-out duration-200 text-sm;
+  @apply border-gray-300 overflow-hidden w-full md:w-[50%] md:h-[50%] hover:bg-gray-300 transition ease-in-out duration-200 text-sm;
 }
 
 .doc-header-list-quadrant {

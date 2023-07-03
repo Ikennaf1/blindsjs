@@ -64,7 +64,7 @@ const Documentation = () => {
       {/* Header */}
       <header className="doc-page-header flex flex-col gap-16 pt-24 md:pt-32">
         <div className="body-margin h-[85%]">
-          <div className="doc-page-header-inner border h-[100%] bg-gray-100 rounded-xl overflow-hidden border-gray-300 shadow-lg block sm:flex sm:flex-row sm:flex-wrap">
+          <div className="doc-page-header-inner border h-[100%] bg-gray-200 rounded-xl overflow-hidden border-gray-300 shadow-lg block sm:flex sm:flex-row sm:flex-wrap">
 
             <div className="doc-header-list border-b sm:border-r">
               <div className="doc-header-list-quadrant">
@@ -123,7 +123,7 @@ const Documentation = () => {
                 </div>
                 <div className="flex flex-col gap-4">
                   <h3 className="">What about our other products?</h3>
-                  <p>From plugins and components, to entire layouts and starter kits. Discover our products designed to give you a great headstart.</p>
+                  <p>From plugins and components, to entire layouts and starter kits. Discover all of our products designed to give you a great headstart.</p>
                   <div className="flex flex-row flex-wrap gap-4">
                     <Link className="" href="/">See all our products</Link>
                   </div>
