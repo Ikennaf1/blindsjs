@@ -5,6 +5,8 @@ import NavCollapsible from './NavCollapsible';
 import logoDark from '/public/logo-no-bg-dark.svg';
 import logo from '/public/logo-no-bg.svg';
 import toggleIcon from '/public/bars-3-bottom-right.svg';
+import CompanyClientsSection from './CompanyClientsSection';
+import Integrate from './Integrate';
 
 export const metadata = {
   title: 'Blinds | Home',
@@ -71,13 +73,16 @@ const Home = () => {
               />
           </div>
           <div className="w-3/4 text-center m-auto mt-4">
-              <h2 className="">The only dark mode package you need for your website</h2>
+              <h2 className="">Dark mode package for the modern web</h2>
               <p className="mt-4">
                   Blinds provides the scaffold required to give your customers the dark mode user interface necessary for a truely modern website.
               </p>
-              <Link href="/docs" className="inline-block rounded-md p-5 mt-8 shadow-lg bg-[#2ec4b6] text-white font-bold uppercase hover:bg-[#289e92] transition duration-100 ease-linear">Get started</Link>
+              <div className="mt-8 flex flex-row gap-8 items-center justify-center">
+                <Link href="/documentation/v0/quick-start" className="inline-block rounded-3xl px-4 py-3 shadow-lg bg-[#2ec4b6] text-sm text-white font-bold hover:bg-[#289e92] transition duration-100 ease-linear">Get Started</Link>
+                <Link href="/documentation" className="inline-block rounded-3xl px-4 py-3 shadow-lg bg-none text-sm hover:bg-gray-200 transition duration-100 ease-linear">Documentation</Link>
+              </div>
               <ul className="mt-6 flex justify-center items-center text-gray-400 text-sm">
-                  <li className="mx-3">Currently v0.6.2</li>
+                  <li className="mx-3">Currently v0.6.6</li>
                   <li>·</li>
                   <li className="mx-3"><a href="https://github.com/Ikennaf1/blinds">Visit Github</a></li>
                   <li>·</li>
@@ -87,11 +92,12 @@ const Home = () => {
         </div>
       </header>
 
+      {/* <CompanyClientsSection /> */}
+
       {/* Section One */}
-      {/* <SectionOne /> */}
 
       {/* Section Two */}
-      {/* <SectionTwo /> */}
+      <Integrate />
 
       {/* Section Three */}
       {/* <SectionThree /> */}

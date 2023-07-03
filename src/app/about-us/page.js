@@ -134,14 +134,14 @@ const AboutUs = () => {
       {/* Header */}
       <header className="about-jumbo">
         <div className="pt-32 pb-24 body-margin text-center">
-          <h2 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-white font-light lg:font-light drop-shadow-lg uppercase border-b border-white border-dotted inline-block px-8 py-4">Blinds</h2>
+          <h2 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-white font-light lg:font-light drop-shadow-lg uppercase inline-block">Blinds</h2>
           <p className="mt-4 text-base md:text-lg lg:text-xl xl:text-2xl font-bold text-gray-100 drop-shadow-lg">Helping businesses establish their online presence.</p>
         </div>
       </header>
 
       <section>
         <div className="body-margin text-center flex flex-col items-center gap-4 overflow-hidden">
-          <p className="z-10 text-xl md:text-2xl lg:text-3xl font-bold text-black more-than">We are more than just a website<br />development firm</p>
+          <p className="z-10 text-xl md:text-2xl lg:text-3xl font-bold text-black more-than">We are more than just a plugin<br />development firm</p>
           <p className="z-10 font-light">We are your partner in establishing an online presence.<br />We are a humble team of freelancers<br />dedicated to crafting exceptional web experiences for you our client, and your customers.</p>
 
           <div className="num-backs absolute opacity-20 bg-red-300 flex flex-row mx-auto justify-center self-start items-center text-9xl w-64 h-64 rounded-full font-black text-[white]">
