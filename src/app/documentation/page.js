@@ -64,7 +64,7 @@ const Documentation = () => {
       {/* Header */}
       <header className="doc-page-header flex flex-col gap-16 pt-32">
         <div className="body-margin h-[85%]">
-          <div className="border h-[100%] bg-white rounded-xl overflow-hidden border-gray-300 shadow-lg block sm:flex sm:flex-row sm:flex-wrap">
+          <div className="doc-page-header-inner border h-[100%] bg-gray-100 rounded-xl overflow-hidden border-gray-300 shadow-lg block sm:flex sm:flex-row sm:flex-wrap">
 
             <div className="doc-header-list border-b sm:border-r">
               <div className="p-8 md:p-12 lg:p-16 flex flex-row gap-4">
@@ -78,7 +78,7 @@ const Documentation = () => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <h3 className="">Go to the Blinds documentation</h3>
+                  <h3 className="">The Blinds documentation</h3>
                   <p>Get up to full speed with Blinds in no time by going through the latest documentation.</p>
                   <div>
                     <Link className="" href="/">Blinds v0.6.6 docs</Link>

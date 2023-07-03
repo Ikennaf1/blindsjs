@@ -52,5 +52,26 @@
     ".about-jumbo": {
         "background": "linear-gradient(to bottom right, hsla(0, 100%, 50%, 0.2), transparent, transparent, hsla(240, 100%, 47%, 0.07))",
         "background-color": "hsl(228, 20%, 6%)"
+    },
+    ".doc-page-header": {
+        "border-color": "hsl(228, 0%, 12%)"
+    },
+    ".doc-page-header-inner": {
+        "background-color": "hsl(228, 20%, 10%)",
+        "border-color": "hsl(228, 0%, 12%)"
+    },
+    ".doc-header-list": {
+        "border-color":"hsl(228, 0%, 15%)"
+    },
+    ".doc-header-list:hover": {
+        "background-color": "hsl(228, 20%, 12%)"
+    },
+    ".doc-header-list a": {
+        "color": "white",
+        "border-color": "white"
+    },
+    ".doc-header-list a:hover": {
+        "color": "#2ec4b6",
+        "border-color": "#2ec4b6"
     }
 }
