@@ -90,27 +90,35 @@ const Footer = () => {
               <p className="font-bold">Documentation</p>
               <ul className="flex flex-col gap-4">
                 <li><Link href="/">Quick start</Link></li>
+                <li><Link href="/">React quick start</Link></li>
+                <li><Link href="/">Nextjs quick start</Link></li>
               </ul>
             </div>
 
             <div className="flex flex-col gap-4 mb-8">
               <p className="font-bold">Resources</p>
               <ul className="flex flex-col gap-4">
-                <li><Link href="/">Quick start</Link></li>
+                <li><Link href="/">Github</Link></li>
+                <li><Link href="https://github.com/Ikennaf1/blinds/blob/main/CHANGELOG.md">Changelog</Link></li>
+                <li><Link href="/">Hooks</Link></li>
               </ul>
             </div>
 
             <div className="flex flex-col gap-4 mb-8">
               <p className="font-bold">Company</p>
               <ul className="flex flex-col gap-4">
-                <li><Link href="/">Quick start</Link></li>
+                <li><Link href="/">About us</Link></li>
+                <li><Link href="/">Blog</Link></li>
+                <li><Link href="/">Labs</Link></li>
+                <li><Link href="/">Contact</Link></li>
               </ul>
             </div>
 
             <div className="flex flex-col gap-4 mb-8">
-              <p className="font-bold">legal</p>
+              <p className="font-bold">Legal</p>
               <ul className="flex flex-col gap-4">
-                <li><Link href="/">Quick start</Link></li>
+                <li><Link href="/">Privacy policy</Link></li>
+                <li><Link href="/">Terms of service</Link></li>
               </ul>
             </div>
             
