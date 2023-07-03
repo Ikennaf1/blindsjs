@@ -62,12 +62,12 @@ const Documentation = () => {
       </nav>
       
       {/* Header */}
-      <header className="doc-page-header flex flex-col gap-16 pt-32">
+      <header className="doc-page-header flex flex-col gap-16 pt-24 md:pt-32">
         <div className="body-margin h-[85%]">
           <div className="doc-page-header-inner border h-[100%] bg-gray-100 rounded-xl overflow-hidden border-gray-300 shadow-lg block sm:flex sm:flex-row sm:flex-wrap">
 
             <div className="doc-header-list border-b sm:border-r">
-              <div className="p-8 md:p-12 lg:p-16 flex flex-row gap-4">
+              <div className="doc-header-list-quadrant">
                 <div>
                   <div className="w-12 h-12 rounded-full flex items-center justify-center bg-[#e7112d]/40">
                     <Image
@@ -88,7 +88,7 @@ const Documentation = () => {
             </div>
 
             <div className="doc-header-list border-b  sm:border-b">
-              <div className="p-8 md:p-12 lg:p-16 flex flex-row gap-4">
+              <div className="doc-header-list-quadrant">
                 <div>
                   <div className="w-12 h-12 rounded-full flex items-center justify-center bg-[skyblue]/40">
                     <Image
@@ -111,7 +111,7 @@ const Documentation = () => {
             </div>
 
             <div className="doc-header-list border-b sm:border-b-0">
-              <div className="p-8 md:p-12 lg:p-16 flex flex-row gap-4">
+              <div className="doc-header-list-quadrant">
                 <div>
                   <div className="w-12 h-12 rounded-full flex items-center justify-center bg-[teal]/40">
                     <Image
@@ -123,7 +123,7 @@ const Documentation = () => {
                 </div>
                 <div className="flex flex-col gap-4">
                   <h3 className="">What about our other products?</h3>
-                  <p>From plugins and components, to entire layouts and starter kits. Check out all our products designed to give you a good headstart.</p>
+                  <p>From plugins and components, to entire layouts and starter kits. Discover our products designed to give you a great headstart.</p>
                   <div className="flex flex-row flex-wrap gap-4">
                     <Link className="" href="/">See all our products</Link>
                   </div>
@@ -132,7 +132,7 @@ const Documentation = () => {
             </div>
 
             <div className="doc-header-list sm:border-l">
-              <div className="p-8 md:p-12 lg:p-16 flex flex-row gap-4">
+              <div className="doc-header-list-quadrant">
                 <div>
                   <div className="w-12 h-12 rounded-full flex items-center justify-center bg-[#ff4e0e]/40">
                     <Image
