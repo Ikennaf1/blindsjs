@@ -5,13 +5,13 @@ const CompanyClientsSection = () => {
     return (
         <section>
             <div className="body-margin flex flex-col gap-4">
-                <p className="uppercase text-center text-sm">Trusted by companies of all sizes</p>
+                <p className="uppercase text-center text-sm">Trusted by businesses of all sizes</p>
 
                 <div className="flex flex-row flex-wrap gap-4 justify-center">
                     <Image
                      src="/whatsapp.svg"
-                     width="48"
-                     height="48"
+                     width="40"
+                     height="40"
                      />
                 </div>
             </div>

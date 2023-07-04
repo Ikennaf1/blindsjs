@@ -5,22 +5,22 @@ import Image from 'next/image';
 const DevExpCard = ({ children, title, text, imgSrc }) => {
     return (
         <div className="w-[360px] h-[420px] border overflow-hidden rounded-xl shadow-lg">
-            <div className="w-full h-full bg-white">
+            <div className="w-full h-full bg-white flex flex-col gap-4">
                 <div className="relative w-[360px] h-[320px]">
                     <Image
                     src={imgSrc}
-                    width={360}
-                    height={360}
+                    width={640}
+                    height={427}
                     objectFit="cover"
                     style={{width:"auto", height:"100%"}}
                     />
-                    <div className="absolute mx-auto left-0 right-0 bottom-4 text-center">
-                        <p className="text-center">{ title }</p>
+                    <div className="absolute mx-auto left-0 right-0 bottom-0 py-4 text-center">
+                        <p className="text-center text-xl font-black text-white drop-shadow-lg">{ title }</p>
                     </div>
                 </div>
 
                 <div>                    
-                    <p className="text-white text-center">{ children }</p>
+                    <p className="font-light text-center px-4">{ children }</p>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@ const DevExpCard = ({ children, title, text, imgSrc }) => {
 
 const DevExperience = () => {
     return (
-        <section>
+        <section className="bg-gray-200 py-16">
             <div className="body-margin flex flex-col gap-4">
                 <p className="flex flex-col gap-1 text-4xl">
                     <span className="font-light text-[#ff00ff]">Premium</span>
@@ -41,9 +41,11 @@ const DevExperience = () => {
                     Some of our tools and products:
                 </p>
                 <div className="flex flex-row gap-4 py-4 overflow-auto">
-                    <DevExpCard imgSrc="/laptop-dark.jpg" title="Blinds dark mode">sbdrghsi</DevExpCard>
+                    <DevExpCard imgSrc="/laptop-dark.jpg" title="Blinds dark mode">
+                        The only dark mode package you need for your new and existing websites.
+                    </DevExpCard>
                 </div>
-                <Link className="inline-block w-40 rounded-3xl px-4 py-3 shadow-lg bg-gray-200 text-sm text-black hover:bg-gray-300 transition duration-100 ease-linear" href="/">See all products &rarr;</Link>
+                <Link className="inline-block w-40 rounded-3xl px-4 py-3 shadow-lg bg-orange-400 text-sm text-black hover:bg-orange-500 transition duration-100 ease-linear" href="/">See all products &rarr;</Link>
             </div>
         </section>
     );
