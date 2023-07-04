@@ -76,5 +76,14 @@
     },
     ".integrate-frameworks-icons": {
         "background-color": "hsla(300, 100%, 50%, 0.2)"
+    },
+    ".dev-expe": {
+        "background-color":"hsl(228, 20%, 15%)"
+    },
+    ".dev-products-card": {
+        "background-color":"hsl(228, 20%, 8%)"
+    },
+    ".dev-products-card-container": {
+        "border-color": "hsl(228, 0%, 15%)"
     }
 }

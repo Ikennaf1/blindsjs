@@ -8,6 +8,7 @@ import toggleIcon from '/public/bars-3-bottom-right.svg';
 import CompanyClientsSection from './CompanyClientsSection';
 import Integrate from './Integrate';
 import DevExperience from './DevExperience';
+import Features from './Features';
 
 export const metadata = {
   title: 'Blinds | Home',
@@ -102,7 +103,7 @@ const Home = () => {
       <DevExperience />
 
       {/* Section Three */}
-      {/* <SectionThree /> */}
+      <Features />
 
       {/* Section Four */}
       {/* <SectionFour /> */}

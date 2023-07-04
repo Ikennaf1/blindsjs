@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 const DevExpCard = ({ children, title, text, imgSrc }) => {
     return (
-        <div className="w-[360px] h-[420px] border overflow-hidden rounded-xl shadow-lg">
-            <div className="w-full h-full bg-white flex flex-col gap-4">
+        <div className="dev-products-card-container w-[360px] h-[420px] border overflow-hidden rounded-xl shadow-lg">
+            <div className="dev-products-card w-full h-full bg-white flex flex-col gap-4">
                 <div className="relative w-[360px] h-[320px]">
                     <Image
                     src={imgSrc}
@@ -29,7 +29,7 @@ const DevExpCard = ({ children, title, text, imgSrc }) => {
 
 const DevExperience = () => {
     return (
-        <section className="bg-gray-200 py-16">
+        <section className="dev-expe bg-gray-200 py-16">
             <div className="body-margin flex flex-col gap-4">
                 <p className="flex flex-col gap-1 text-4xl">
                     <span className="font-light text-[#ff00ff]">Premium</span>
