@@ -73,5 +73,8 @@
     ".doc-header-list a:hover": {
         "color": "#2ec4b6",
         "border-color": "#2ec4b6"
+    },
+    ".integrate-frameworks-icons": {
+        "background-color": "hsla(300, 100%, 50%, 0.2)"
     }
 }

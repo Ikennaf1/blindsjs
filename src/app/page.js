@@ -7,6 +7,7 @@ import logo from '/public/logo-no-bg.svg';
 import toggleIcon from '/public/bars-3-bottom-right.svg';
 import CompanyClientsSection from './CompanyClientsSection';
 import Integrate from './Integrate';
+import DevExperience from './DevExperience';
 
 export const metadata = {
   title: 'Blinds | Home',
@@ -78,7 +79,7 @@ const Home = () => {
                   Blinds provides the scaffold required to give your customers the dark mode user interface necessary for a truely modern website.
               </p>
               <div className="mt-8 flex flex-row gap-8 items-center justify-center">
-                <Link href="/documentation/v0/quick-start" className="inline-block rounded-3xl px-4 py-3 shadow-lg bg-[#2ec4b6] text-sm text-white font-bold hover:bg-[#289e92] transition duration-100 ease-linear">Get Started</Link>
+                <Link href="/documentation/v0/quick-start" className="inline-block rounded-3xl px-4 py-3 shadow-lg bg-[#14161f] text-sm text-white hover:bg-[black] transition duration-100 ease-linear">Get Started &rarr;</Link>
                 <Link href="/documentation" className="inline-block rounded-3xl px-4 py-3 shadow-lg bg-none text-sm hover:bg-gray-200 transition duration-100 ease-linear">Documentation</Link>
               </div>
               <ul className="mt-6 flex justify-center items-center text-gray-400 text-sm">
@@ -95,9 +96,10 @@ const Home = () => {
       {/* <CompanyClientsSection /> */}
 
       {/* Section One */}
+      <Integrate />
 
       {/* Section Two */}
-      <Integrate />
+      <DevExperience />
 
       {/* Section Three */}
       {/* <SectionThree /> */}

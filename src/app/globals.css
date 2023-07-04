@@ -263,3 +263,8 @@ body {
 .doc-header-list a:hover {
   @apply link border-[#2ec4b6] transition ease-in-out duration-75;
 }
+
+.integrate-frameworks-icons {
+  color: #14161f;
+  @apply px-4 py-3 rounded-xl bg-[#380568]/30 shadow-lg;
+}
