@@ -80,10 +80,10 @@
     ".dev-expe": {
         "background-color":"hsl(228, 20%, 15%)"
     },
-    ".dev-products-card": {
+    ".dev-products-card,.card-feature": {
         "background-color":"hsl(228, 20%, 8%)"
     },
-    ".dev-products-card-container": {
+    ".dev-products-card-container,.card-feature": {
         "border-color": "hsl(228, 0%, 15%)"
     }
 }
