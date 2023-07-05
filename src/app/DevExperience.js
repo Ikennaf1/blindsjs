@@ -41,7 +41,6 @@ const DevExperience = () => {
                     Our goal is to create a great development eco-system we&apos;ve always wished we had.<br />
                     Some of our tools and products:
                 </p>
-                {/* <div className="flex flex-row gap-4 py-4 overflow-auto justify-center"> */}
                 <div className="flex flex-row gap-4 py-4 overflow-auto">
                     <DevExpCard
                      imgSrc="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/laptop-dark.jpg"
@@ -52,7 +51,6 @@ const DevExperience = () => {
                         The only dark mode package you need for your new and existing websites.
                     </DevExpCard>
                 </div>
-                {/* <Link className="self-center inline-block w-40 rounded-3xl px-4 py-3 shadow-lg bg-orange-400 text-sm text-black hover:bg-orange-500 transition duration-100 ease-linear" href="/">See all products &rarr;</Link> */}
                 <Link className="inline-block w-40 rounded-3xl px-4 py-3 shadow-lg bg-orange-400 text-sm text-black hover:bg-orange-500 transition duration-100 ease-linear" href="/">See all products &rarr;</Link>
             </div>
         </section>
