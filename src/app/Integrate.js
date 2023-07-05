@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import CodeClip from "./CodeClip"
 
 
@@ -146,6 +147,7 @@ useEffect(() => {
 });`}
                     </CodeClip>
                 </div>
+                <Link className="inline-block w-40 rounded-3xl px-4 py-3 shadow-lg bg-orange-400 text-sm text-black hover:bg-orange-500 transition duration-100 ease-linear" href="/">Visit docs &rarr;</Link>
             </div>
         </section>
     );

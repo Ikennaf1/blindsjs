@@ -101,10 +101,10 @@ const Home = () => {
       <Features />
 
       {/* Section Two */}
-      <DevExperience />
+      <Integrate />
 
       {/* Section Three */}
-      <Integrate />
+      <DevExperience />
 
       {/* Section Four */}
       <Testimonials />
