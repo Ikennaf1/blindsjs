@@ -5,7 +5,7 @@ import CodeClip from "./CodeClip"
 const Integrate = () => {
     return (
         <section>
-            <div className="body-margin flex flex-col gap-4 items-center text-center">
+            <div className="body-margin flex flex-col gap-8 items-center text-center">
                 <div className="w-28 h-28 p-4 bg-[purple]/30 rounded-3xl shadow-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="purple" className="w-full h-full">
                         <path d="M17.004 10.407c.138.435-.216.842-.672.842h-3.465a.75.75 0 01-.65-.375l-1.732-3c-.229-.396-.053-.907.393-1.004a5.252 5.252 0 016.126 3.537zM8.12 8.464c.307-.338.838-.235 1.066.16l1.732 3a.75.75 0 010 .75l-1.732 3.001c-.229.396-.76.498-1.067.16A5.231 5.231 0 016.75 12c0-1.362.519-2.603 1.37-3.536zM10.878 17.13c-.447-.097-.623-.608-.394-1.003l1.733-3.003a.75.75 0 01.65-.375h3.465c.457 0 .81.408.672.843a5.252 5.252 0 01-6.126 3.538z" />
