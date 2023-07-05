@@ -2,17 +2,18 @@ import Link from "next/link"
 import Image from 'next/image';
 
 
-const DevExpCard = ({ children, title, text, imgSrc }) => {
+const DevExpCard = ({ children, title, imgSrc, imgWidth, imgHeight, alt }) => {
     return (
         <div className="dev-products-card-container w-[360px] h-[420px] border overflow-hidden rounded-xl shadow-lg">
             <div className="dev-products-card w-full h-full bg-white flex flex-col gap-4">
                 <div className="relative w-[360px] h-[320px]">
                     <Image
                     src={imgSrc}
-                    width={640}
-                    height={427}
+                    width={imgWidth}
+                    height={imgHeight}
                     objectFit="cover"
                     style={{width:"auto", height:"100%"}}
+                    alt={alt}
                     />
                     <div className="absolute mx-auto left-0 right-0 bottom-0 py-4 text-center">
                         <p className="text-center text-xl font-black text-white drop-shadow-lg">{ title }</p>
@@ -40,11 +41,18 @@ const DevExperience = () => {
                     Our goal is to create a great development eco-system we&apos;ve always wished we had.<br />
                     Some of our tools and products:
                 </p>
+                {/* <div className="flex flex-row gap-4 py-4 overflow-auto justify-center"> */}
                 <div className="flex flex-row gap-4 py-4 overflow-auto">
-                    <DevExpCard imgSrc="/laptop-dark.jpg" title="Blinds dark mode">
+                    <DevExpCard
+                     imgSrc="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/laptop-dark.jpg"
+                     alt="Blinds dark mode"
+                     title="Blinds dark mode"
+                     imgWidth={640}
+                     imgHeight={427}>
                         The only dark mode package you need for your new and existing websites.
                     </DevExpCard>
                 </div>
+                {/* <Link className="self-center inline-block w-40 rounded-3xl px-4 py-3 shadow-lg bg-orange-400 text-sm text-black hover:bg-orange-500 transition duration-100 ease-linear" href="/">See all products &rarr;</Link> */}
                 <Link className="inline-block w-40 rounded-3xl px-4 py-3 shadow-lg bg-orange-400 text-sm text-black hover:bg-orange-500 transition duration-100 ease-linear" href="/">See all products &rarr;</Link>
             </div>
         </section>
