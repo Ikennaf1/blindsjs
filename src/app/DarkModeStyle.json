@@ -84,6 +84,9 @@
         "background-color":"hsl(228, 20%, 8%)"
     },
     ".dev-products-card-container,.card-feature": {
-        "border-color": "hsl(228, 0%, 15%)"
+        "border-color": "hsl(228, 0%, 12%)"
+    },
+    ".ceo-quote": {
+        "color":"white"
     }
 }

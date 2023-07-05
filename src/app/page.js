@@ -9,6 +9,7 @@ import CompanyClientsSection from './CompanyClientsSection';
 import Integrate from './Integrate';
 import DevExperience from './DevExperience';
 import Features from './Features';
+import Testimonials from './Testimonials';
 
 export const metadata = {
   title: 'Blinds | Home',
@@ -97,16 +98,16 @@ const Home = () => {
       {/* <CompanyClientsSection /> */}
 
       {/* Section One */}
-      <Integrate />
+      <Features />
 
       {/* Section Two */}
       <DevExperience />
 
       {/* Section Three */}
-      <Features />
+      <Integrate />
 
       {/* Section Four */}
-      {/* <SectionFour /> */}
+      <Testimonials />
 
     </main>
   )

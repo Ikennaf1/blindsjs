@@ -20,7 +20,7 @@ const DevExpCard = ({ children, title, text, imgSrc }) => {
                 </div>
 
                 <div>                    
-                    <p className="font-light text-center px-4">{ children }</p>
+                    <p className="text-center px-4 text-sm">{ children }</p>
                 </div>
             </div>
         </div>

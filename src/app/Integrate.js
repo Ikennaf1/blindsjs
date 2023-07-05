@@ -139,9 +139,7 @@ useEffect(() => {
             "background-color": "black"
         }
     });
-
     blindsInit();
-
     document.querySelector('#blinds_id').onclick = () => {
         blindsToggle()
     }

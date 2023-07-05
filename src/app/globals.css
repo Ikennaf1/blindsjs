@@ -268,3 +268,32 @@ body {
   color: #14161f;
   @apply px-4 py-3 rounded-xl bg-[#380568]/30 shadow-lg;
 }
+
+.card-feature {
+  background: linear-gradient(to bottom right, rgba(228, 7, 44, 0.151), transparent, transparent, transparent, transparent, rgba(137, 10, 255, 0.103));
+  @apply bg-gray-300;
+}
+
+div.ceo-quote {
+  --s:330px;  /*Size of the circle */
+  --p:15px;  /* padding */
+
+  height: var(--s);
+  width:  var(--s);
+  border-radius: 50%;
+  @apply text-justify italic font-light text-black;
+}
+
+.ceo-quote i,
+.ceo-quote::before {
+  content: '';
+  float: left;
+  height:100%;
+  width: 50%;
+  shape-outside: radial-gradient(farthest-side at right, transparent calc(100% - var(--p)), #fff 0);
+}
+
+.ceo-quote i {
+  float: right;
+  shape-outside: radial-gradient(farthest-side at left,  transparent calc(100% - var(--p)), #fff 0);
+}
