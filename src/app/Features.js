@@ -103,7 +103,7 @@ const Features = () => {
                         Faster completion time for both new and existing websites is possible due to ease of installation, and separation of code.
                     </CardFeature> */}
                 </div>
-                <Link className="inline-block w-40 rounded-3xl px-4 py-3 shadow-lg bg-orange-400 text-sm text-black hover:bg-orange-500 transition duration-100 ease-linear" href="/">Go to the docs &rarr;</Link>
+                <Link className="inline-block w-40 rounded-3xl px-4 py-3 shadow-lg bg-orange-400 text-sm text-black hover:bg-orange-500 transition duration-100 ease-linear" href="/documentation">Go to the docs &rarr;</Link>
             </div>
         </section>
     );

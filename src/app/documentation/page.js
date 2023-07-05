@@ -81,7 +81,7 @@ const Documentation = () => {
                   <h3 className="">The Blinds documentation</h3>
                   <p>Get up to full speed with Blinds in no time by going through the latest documentation.</p>
                   <div>
-                    <Link className="" href="/">Blinds v0.6.6 docs</Link>
+                    <Link className="" href="/documentation/v0/quick-start">Blinds v0.6.6 docs</Link>
                   </div>
                 </div>
               </div>

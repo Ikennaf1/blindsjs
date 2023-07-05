@@ -21,7 +21,7 @@ const SectionTwo = () => {
                         </div>
                         <h4 className="mt-4 font-bold text-lg">Customize your dark mode exactly how you want</h4>
                         <p className="mt-4 text-gray-300">Go beyond the defaults. Get your hands dirty and make your dark mode complement the overall user interface of your website.</p>
-                        <Link href="/docs" className="inline-block mt-2 link">
+                        <Link href="/documentation/v0/quick-start" className="inline-block mt-2 link">
                             Read documentation
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1" stroke="currentColor" className="inline-block ml-2 w-4 h-4">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />

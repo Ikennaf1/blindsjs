@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="flex-[3] order-1 md:order-0">
           <div className="flex flex-col gap-8">
             <address className="flex flex-col gap-0 not-italic text-sm text-gray-400 font-light">
-              <span>9 Hilltop Crescent Onitsha</span>
+              <span>9 Hilltop Crescent Federal Housing</span>
               <span>Anambra, Nigeria</span>
             </address>
 
@@ -89,7 +89,7 @@ const Footer = () => {
             <div className="flex flex-col gap-4 mb-8">
               <p className="font-bold">Documentation</p>
               <ul className="flex flex-col gap-4">
-                <li><Link href="/">Quick start</Link></li>
+                <li><Link href="/documentation">Quick start</Link></li>
                 <li><Link href="/">React quick start</Link></li>
                 <li><Link href="/">Nextjs quick start</Link></li>
               </ul>
@@ -98,7 +98,7 @@ const Footer = () => {
             <div className="flex flex-col gap-4 mb-8">
               <p className="font-bold">Resources</p>
               <ul className="flex flex-col gap-4">
-                <li><Link href="/">Github</Link></li>
+                <li><Link href="https://github.com/Ikennaf1/blinds">Github</Link></li>
                 <li><Link href="https://github.com/Ikennaf1/blinds/blob/main/CHANGELOG.md">Changelog</Link></li>
                 <li><Link href="/">Hooks</Link></li>
               </ul>
@@ -107,7 +107,7 @@ const Footer = () => {
             <div className="flex flex-col gap-4 mb-8">
               <p className="font-bold">Company</p>
               <ul className="flex flex-col gap-4">
-                <li><Link href="/">About us</Link></li>
+                <li><Link href="/about-us">About us</Link></li>
                 <li><Link href="/">Blog</Link></li>
                 <li><Link href="/">Labs</Link></li>
                 <li><Link href="/">Contact</Link></li>
