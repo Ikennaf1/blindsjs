@@ -74,6 +74,7 @@ const Documentation = () => {
                     src="/feather.svg"
                     width="28"
                     height="28"
+                    alt=""
                     />
                   </div>
                 </div>
@@ -95,6 +96,7 @@ const Documentation = () => {
                     src="/react.svg"
                     width="28"
                     height="28"
+                    alt=""
                     />
                   </div>
                 </div>
@@ -118,6 +120,7 @@ const Documentation = () => {
                     src="/building-storefront.svg"
                     width="28"
                     height="28"
+                    alt=""
                     />
                   </div>
                 </div>
@@ -139,6 +142,7 @@ const Documentation = () => {
                     src="/newspaper.svg"
                     width="28"
                     height="28"
+                    alt=""
                     />
                   </div>
                 </div>

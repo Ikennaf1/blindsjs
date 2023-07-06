@@ -5,7 +5,7 @@ const Testimonial = ({ children, imgSrc, imgWidth, imgHeight, testifier, testifi
     return (
         <div className="card-feature flex flex-col gap-4 p-4 w-[372px] h-40 border rounded-2xl shadow-lg">
             <div className="text-left text-sm">
-                <p>"{ children }"</p>
+                <p>&ldquo;{ children }&rdquo;</p>
             </div>
 
             <div  className="flex flex-row gap-4 text-sm text-left items-center">

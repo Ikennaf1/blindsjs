@@ -12,6 +12,7 @@ const CompanyClientsSection = () => {
                      src="/whatsapp.svg"
                      width="40"
                      height="40"
+                     alt="whatsapp"
                      />
                 </div>
             </div>
