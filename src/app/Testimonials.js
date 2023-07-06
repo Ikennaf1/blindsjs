@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Testimonial = ({ children, imgSrc, imgWidth, imgHeight, testifier, testifierTitle }) => {
     return (
-        <div className="card-feature flex flex-col gap-4 p-4 w-[372px] h-40 border rounded-2xl">
+        <div className="card-feature flex flex-col gap-4 p-4 w-[372px] h-40 border rounded-2xl shadow-lg">
             <div className="text-left text-sm">
                 <p>"{ children }"</p>
             </div>
@@ -51,10 +51,10 @@ const Testimonials = () => {
                     </p>
                     <p>
                         Our mission is to provide the best possible solutions with our products and our services.<br />
-                        Some of our satisfied clients have this to say about us:
+                        {/* Some of our satisfied clients have this to say about us: */}
                     </p>
 
-                    <div className="flex flex-row gap-8 justify-center">
+                    {/* <div className="flex flex-row gap-8 justify-center">
                         <Testimonial
                          imgSrc="https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/laptop-dark.jpg"
                          testifier="Ikenna"
@@ -63,7 +63,7 @@ const Testimonials = () => {
                          imgHeight={427}>
                             We snmng si ngs ing isnfin snfi sifn snifni sfign snfi visninfnbisd ifn sdfisnvnspnpsinf psn vs fisnivnsfv isnpn ifn bs.
                         </Testimonial>
-                    </div>
+                    </div> */}
 
                     <div>
                         <p className="text-4xl">
