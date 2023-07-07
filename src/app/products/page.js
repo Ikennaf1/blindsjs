@@ -42,11 +42,11 @@ const Products = () => {
         <div className="body-margin flex flex-col gap-12 text-center text-white">
 
           <div className="flex flex-col gap-4">
-            <p className="text-4xl font-bold">
+            <p className="text-4xl font-bold drop-shadow-lg">
               Products
             </p>
 
-            <p className="text-2xl font-extralight text-gray-100">
+            <p className="text-2xl font-extralight text-gray-100 drop-shadow-lg">
               Hand-crafted, enterprise-grade products, and template kits. Browse all our products
             </p>
           </div>
