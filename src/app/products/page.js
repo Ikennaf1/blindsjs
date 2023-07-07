@@ -54,8 +54,8 @@ const Card = ({ name, imgSrc, imgWidth, imgHeight, alt, price, shortDesc, tags,v
 
             <div className="flex flex-col items-end gap-1">
               <div className="flex flex-row gap-4 items-center text-xs">
-                <p>View details</p>
-                <Link className="shadow-md hover:shadow-sm" href="/"><p className="px-2 py-1 border font-bold text-orange-500 border-orange-300 rounded-sm">Demo</p></Link>
+                <p>Details</p>
+                <Link className="shadow-md hover:shadow-sm" href="/"><p className="px-2 py-1 border font-bold text-[#ff0080] border-[#ff0080] rounded-sm">View demo</p></Link>
               </div>
 
               <p className="text-xs font-light text-gray-400">Version { version }</p>
@@ -143,7 +143,7 @@ const Products = () => {
           </div>
 
           {/* Products list */}
-          <div className="flex flex-row flex-wrap gap-8 justify-center">
+          <div className="flex flex-row flex-wrap gap-8 justify-start">
             {
               products.map((product) => (
                 <Card
