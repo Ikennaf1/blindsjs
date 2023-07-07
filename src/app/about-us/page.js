@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: 'Blinds | About',
     description: 'The best dark mode package for all websites',
-    url: 'https://blindsjs.dev',
+    url: 'https://blindsjs.dev/about-us',
     images: [
       {
         url: 'https://raw.githubusercontent.com/Ikennaf1/staticrepo/master/imgs/og-blinds.jpg',
@@ -35,7 +35,7 @@ const AboutUs = () => {
             <Link href='/documentation' className="topic-list-items-collapsible"><li>Documentation</li></Link>
             <Link href='/about-us' className="topic-list-items-collapsible"><li>About</li></Link>
             <Link href='/documentation' className="topic-list-items-collapsible"><li>Blog</li></Link>
-            <Link href='/documentation' className="topic-list-items-collapsible"><li>Products</li></Link>
+            <Link href='/products' className="topic-list-items-collapsible"><li>Products</li></Link>
           </ul>
         </div>
         <div className="flex flex-row flex-wrap gap-8">
@@ -106,7 +106,7 @@ const AboutUs = () => {
               <Link href="/documentation" className="nav-link"><li>Documentation</li></Link>
               <Link href="/about-us" className="nav-link"><li>About us</li></Link>
               <Link href="/" className="nav-link"><li>Blog</li></Link>
-              <Link href="/" className="nav-link"><li>Products</li></Link>
+              <Link href="/products" className="nav-link"><li>Products</li></Link>
               <Link href="https://wa.me/message/HFKHEXWNRCEFE1" className="nav-link">
                 <li className="">
                   <Image

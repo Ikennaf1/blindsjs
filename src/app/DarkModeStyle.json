@@ -88,5 +88,9 @@
     },
     ".ceo-quote": {
         "color":"white"
-    }
+    },
+    ".all-products-header": {
+        "background": "linear-gradient(to bottom right, rgba(228, 7, 44, 0.5), transparent, transparent, rgba(137, 10, 255, 0.18))",
+        "backgound-color": "hsl(228, 20%, 6%)"
+      }
 }

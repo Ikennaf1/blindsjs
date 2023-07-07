@@ -11,8 +11,7 @@ const DevExpCard = ({ children, title, imgSrc, imgWidth, imgHeight, alt }) => {
                     src={imgSrc}
                     width={imgWidth}
                     height={imgHeight}
-                    objectFit="cover"
-                    style={{width:"auto", height:"100%"}}
+                    style={{width:"auto", height:"100%", objectFit:"cover"}}
                     alt={alt}
                     />
                     <div className="absolute mx-auto left-0 right-0 bottom-0 py-4 text-center">

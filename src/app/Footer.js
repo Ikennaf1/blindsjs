@@ -109,7 +109,7 @@ const Footer = () => {
               <p className="font-bold">Company</p>
               <ul className="flex flex-col gap-4">
                 <li><Link href="/about-us">About us</Link></li>
-                <li><Link href="/">Products</Link></li>
+                <li><Link href="/products">Products</Link></li>
                 <li><Link href="/">Labs</Link></li>
                 <li><Link href="/">Contact</Link></li>
               </ul>

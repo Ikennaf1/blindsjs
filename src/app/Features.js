@@ -92,7 +92,7 @@ const Features = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                     </svg>
                     }>
-                        Ships with a lot of flexibility at under 20kb. Blinds has very little overhead and runs blazingly fast.
+                        Ships with a lot of flexibility at under 10kb. Blinds has very little overhead and runs blazingly fast.
                     </CardFeature>
 
                     {/* <CardFeature
