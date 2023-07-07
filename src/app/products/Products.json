@@ -1,0 +1,17 @@
+{
+    "products": [
+        {
+            "name": "Blinds dark mode",
+            "img_src": "",
+            "category": 0,
+            "tags": [
+                "dark mode",
+                "night mode"
+            ],
+            "price": 0,
+            "version": "0.6.6",
+            "short_desc": "The only dark mode package you need for your new and existing websites.",
+            "long_desc": ""
+        }
+    ]
+}

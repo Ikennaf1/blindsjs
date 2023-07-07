@@ -23,7 +23,7 @@ const Documentation = () => {
             <Link href='/documentation' className="topic-list-items-collapsible"><li>Documentation</li></Link>
             <Link href='/about-us' className="topic-list-items-collapsible"><li>About us</li></Link>
             <Link href='/documentation' className="topic-list-items-collapsible"><li>Blog</li></Link>
-            <Link href='/documentation' className="topic-list-items-collapsible"><li>Products</li></Link>
+            <Link href='/products' className="topic-list-items-collapsible"><li>Products</li></Link>
           </ul>
         </div>
       </NavCollapsible>
@@ -46,7 +46,7 @@ const Documentation = () => {
               <Link href="/documentation" className="nav-link"><li>Documentation</li></Link>
               <Link href="/about-us" className="nav-link"><li>About us</li></Link>
               <Link href="/" className="nav-link"><li>Blog</li></Link>
-              <Link href="/" className="nav-link"><li>Products</li></Link>
+              <Link href="/products" className="nav-link"><li>Products</li></Link>
             </ul>
             <label htmlFor="collapsedNav" className="md:hidden">
               <Image

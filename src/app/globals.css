@@ -297,3 +297,8 @@ div.ceo-quote {
   float: right;
   shape-outside: radial-gradient(farthest-side at left,  transparent calc(100% - var(--p)), #fff 0);
 }
+
+.all-products-header {
+  background: linear-gradient(to bottom right, rgba(228, 7, 44, 0.5), transparent, transparent, rgba(137, 10, 255, 0.5));
+  @apply bg-blue-500;
+}

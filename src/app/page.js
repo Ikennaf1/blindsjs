@@ -2,14 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import NavCollapsible from './NavCollapsible';
 
-import logoDark from '/public/logo-no-bg-dark.svg';
 import logo from '/public/logo-no-bg.svg';
-import toggleIcon from '/public/bars-3-bottom-right.svg';
 import CompanyClientsSection from './CompanyClientsSection';
 import Integrate from './Integrate';
 import DevExperience from './DevExperience';
 import Features from './Features';
 import Testimonials from './Testimonials';
+import Nav from './Nav';
 
 export const metadata = {
   title: 'Blinds | Home',
@@ -25,43 +24,12 @@ const Home = () => {
             <Link href='/documentation' className="topic-list-items-collapsible"><li>Documentation</li></Link>
             <Link href='/about-us' className="topic-list-items-collapsible"><li>About us</li></Link>
             <Link href='/documentation' className="topic-list-items-collapsible"><li>Blog</li></Link>
-            <Link href='/documentation' className="topic-list-items-collapsible"><li>Products</li></Link>
+            <Link href='/products' className="topic-list-items-collapsible"><li>Products</li></Link>
           </ul>
         </div>
       </NavCollapsible>
-      <nav className="nav text-sm">
-        <div className="body-margin flex flex-row justify-between items-center">
-          <div className="flex min-w-0 gap-4 items-center">
-            <Link href="/">
-              <Image
-               src={logoDark}
-               width="40"
-               height="40"
-               alt="Blinds logo"
-              />
-            </Link>
-            <a href="/"><h1 className="font-bold text-xl">Blinds</h1></a>
-          </div>
-          <div id="blinds_id" className=""></div>
-          <div className="">
-            <ul className="hidden md:flex gap-4">
-              <Link href="/documentation" className="nav-link"><li>Documentation</li></Link>
-              <Link href="/about-us" className="nav-link"><li>About us</li></Link>
-              <Link href="/" className="nav-link"><li>Blog</li></Link>
-              <Link href="/" className="nav-link"><li>Products</li></Link>
-            </ul>
-            <label htmlFor="collapsedNav" className="md:hidden">
-              <Image
-               src={toggleIcon}
-               width=""
-               height=""
-               alt="toggle menu icon"
-               className="drop-shadow-md cursor-pointer"
-              />
-            </label>
-          </div>
-        </div>
-      </nav>
+      
+      <Nav />
       
       {/* Header */}
       <header className="header pt-32">
