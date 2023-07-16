@@ -79,7 +79,7 @@ const Footer = () => {
               /> */}
             </div>
 
-            <p className="font-light text-xs text-gray-400">&copy; {new Date().getFullYear()} Blinds</p>
+            <p className="font-light text-xs text-gray-400">&copy; {new Date().getFullYear()} Blindsjs</p>
           </div>          
         </div>
 
