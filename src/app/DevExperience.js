@@ -35,10 +35,15 @@ const DevExperience = () => {
                     <span className="font-light text-[#ff00ff]">Premium</span>
                     developer experience
                 </p>
-                <p>
+                {/* <p>
                     We are a team of engineers who love to build tools for other engineers, and products for online businesses.<br />
                     Our goal is to create a great development eco-system we&apos;ve always wished we had.<br />
                     Some of our tools and products:
+                </p> */}
+                <p>
+                    We are tool builders who love to build tools for other engineers, and products for online businesses.<br />
+                    Our goal is to create a great development eco-system we always wished we had.<br />
+                    Some of the tools and products:
                 </p>
                 <div className="flex flex-row gap-4 py-4 overflow-auto">
                     <DevExpCard
@@ -47,7 +52,7 @@ const DevExperience = () => {
                      title="Blinds dark mode"
                      imgWidth={640}
                      imgHeight={427}>
-                        The only dark mode package you need for your new and existing websites.
+                        The only dark mode library you need for your new and existing websites.
                     </DevExpCard>
                 </div>
                 <Link className="inline-block w-40 rounded-3xl px-4 py-3 shadow-lg bg-orange-400 text-sm text-black hover:bg-orange-500 transition duration-100 ease-linear" href="/">See all products &rarr;</Link>

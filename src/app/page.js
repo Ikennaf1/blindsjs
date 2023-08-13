@@ -44,7 +44,7 @@ const Home = () => {
               />
           </div>
           <div className="w-3/4 text-center m-auto mt-4">
-              <h2 className="">A dark mode package for the modern web</h2>
+              <h2 className="">A dark mode library for the modern web</h2>
               <p className="mt-4">
                   Blinds provides the scaffold required to give your customers the dark mode user interface necessary for a truely modern website.
               </p>
