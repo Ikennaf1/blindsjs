@@ -115,7 +115,7 @@ const Prods = () => {
                   <option value="all">All</option>
                     {
                       categories.map((category) => (
-                        <option value={category}>{category}</option>
+                        <option key={category} value={category}>{category}</option>
                       ))
                     }
                 </select>
@@ -128,6 +128,7 @@ const Prods = () => {
             {
               products.map((product) => (
                 <Card
+                  key={product.name}
                   name={product.name}
                   imgSrc={product.imgSrc}
                   alt={product.alt}
